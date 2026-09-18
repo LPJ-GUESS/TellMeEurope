@@ -1,0 +1,56 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+DE-Har,1,GRP_HEADER,SITE_NAME,Hartheim
+DE-Har,2,GRP_TEAM,TEAM_MEMBER_NAME,Andreas Christen
+DE-Har,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+DE-Har,2,GRP_TEAM,TEAM_MEMBER_EMAIL,andreas.christen@meteo.uni-freiburg.de
+DE-Har,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Freiburg
+DE-Har,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Freiburg Werthmannstrasse 10 D-79085 Freiburg Germany
+DE-Har,3,GRP_TEAM,TEAM_MEMBER_NAME,Dirk Schindler
+DE-Har,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+DE-Har,3,GRP_TEAM,TEAM_MEMBER_EMAIL,dirk.schindler@meteo.uni-freiburg.de
+DE-Har,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Freiburg
+DE-Har,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Freiburg Werthmannstrasse 10 D-79085 Freiburg Germany
+DE-Har,4,GRP_TEAM,TEAM_MEMBER_NAME,Thomas Plapp
+DE-Har,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+DE-Har,4,GRP_TEAM,TEAM_MEMBER_EMAIL,thomas.plapp@meteo.uni-freiburg.de
+DE-Har,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Freiburg
+DE-Har,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Freiburg Werthmannstrasse 10 D-79085 Freiburg Germany
+DE-Har,5,GRP_TEAM,TEAM_MEMBER_NAME,Dirk Redepenning
+DE-Har,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+DE-Har,5,GRP_TEAM,TEAM_MEMBER_EMAIL,dirk.redepenning@meteo.uni-freiburg.de
+DE-Har,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Freiburg
+DE-Har,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Freiburg Werthmannstrasse 10 D-79085 Freiburg Germany
+DE-Har,6,GRP_TEAM,TEAM_MEMBER_NAME,Ulla Helwig
+DE-Har,6,GRP_TEAM,TEAM_MEMBER_ROLE,ADMIN
+DE-Har,6,GRP_TEAM,TEAM_MEMBER_EMAIL,ulla.helwig@meteo.uni-freiburg.de
+DE-Har,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Freiburg
+DE-Har,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Freiburg Werthmannstrasse 10 D-79085 Freiburg Germany
+DE-Har,7,GRP_NETWORK,NETWORK,ICOS
+DE-Har,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,CO2
+DE-Har,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+DE-Har,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,201902151000
+DE-Har,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H2O
+DE-Har,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+DE-Har,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,201902151000
+DE-Har,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H
+DE-Har,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+DE-Har,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,201902151000
+DE-Har,11,GRP_SITE_DESC,SITE_DESC,https://www.meteo.uni-freiburg.de/en/infrastructure/hartheim-forest-research-site?set_language=en#section-3
+DE-Har,12,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,https://www.meteo.uni-freiburg.de/en/infrastructure/hartheim-forest-research-site?set_language=en#section-3
+DE-Har,14,GRP_LOCATION,LOCATION_LAT,47.93391
+DE-Har,14,GRP_LOCATION,LOCATION_LONG,7.59814
+DE-Har,14,GRP_LOCATION,LOCATION_ELEV,201
+DE-Har,15,GRP_IGBP,IGBP,ENF
+DE-Har,15,GRP_IGBP,IGBP_COMMENT,"In recent years (2014, 2015 and 2018), repeated hot droughts have caused severe stress in the Scots and black pine overstorey, leading to extensive pine mortality. Deciduous tree species now form a dense mid‑storey with an average height of about 10 m and individual trees reaching more than 15 m. (AGB measurement 2023)"
+DE-Har,16,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+DE-Har,16,GRP_LAND_OWNERSHIP,LAND_OWNER,township Hartheim
+DE-Har,17,GRP_UTC_OFFSET,UTC_OFFSET,0
+DE-Har,17,GRP_UTC_OFFSET,UTC_OFFSET_COMMENT,All data reported in UTC
+DE-Har,18,GRP_CLIM_AVG,MAT,10.6
+DE-Har,18,GRP_CLIM_AVG,MAP,641
+DE-Har,19,SITE_CHAR,SURFACE_HOMOGENEITY,1170
+DE-Har,19,SITE_CHAR,WIND_DIRECTION,S
+DE-Har,19,SITE_CHAR,ASPECT,FLAT
+DE-Har,19,SITE_CHAR,TERRAIN,Flat
+DE-Har,20,GRP_TOWER,TOWER_TYPE,Walk-up
+DE-Har,20,GRP_TOWER,TOWER_POWER,Direct power

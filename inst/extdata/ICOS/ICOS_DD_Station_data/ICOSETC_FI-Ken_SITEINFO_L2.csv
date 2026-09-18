@@ -1,0 +1,57 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FI-Ken,1,GRP_HEADER,SITE_NAME,Kenttarova
+FI-Ken,2,GRP_TEAM,TEAM_MEMBER_NAME,Mika Aurela
+FI-Ken,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FI-Ken,2,GRP_TEAM,TEAM_MEMBER_EMAIL,mika.aurela@fmi.fi
+FI-Ken,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finland
+FI-Ken,3,GRP_TEAM,TEAM_MEMBER_NAME,Hermanni Aaltonen
+FI-Ken,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+FI-Ken,3,GRP_TEAM,TEAM_MEMBER_EMAIL,hermanni.aaltonen@fmi.fi
+FI-Ken,4,GRP_TEAM,TEAM_MEMBER_NAME,Juha Hatakka
+FI-Ken,4,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FI-Ken,4,GRP_TEAM,TEAM_MEMBER_EMAIL,juha.hatakka@fmi.fi
+FI-Ken,5,GRP_TEAM,TEAM_MEMBER_NAME,Juuso Rainne
+FI-Ken,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Ken,5,GRP_TEAM,TEAM_MEMBER_EMAIL,juuso.rainne@fmi.fi
+FI-Ken,6,GRP_TEAM,TEAM_MEMBER_NAME,Sami Suopajärvi
+FI-Ken,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Ken,6,GRP_TEAM,TEAM_MEMBER_EMAIL,Sami.Suopajarvi@fmi.fi
+FI-Ken,7,GRP_TEAM,TEAM_MEMBER_NAME,Samu Varjonen
+FI-Ken,7,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FI-Ken,7,GRP_TEAM,TEAM_MEMBER_EMAIL,samu.varjonen@fmi.fi
+FI-Ken,8,GRP_TEAM,TEAM_MEMBER_NAME,Toprak Aslan
+FI-Ken,8,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+FI-Ken,8,GRP_TEAM,TEAM_MEMBER_EMAIL,toprak.aslan@uni-muenster.de
+FI-Ken,9,GRP_NETWORK,NETWORK,ICOS
+FI-Ken,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,CO2
+FI-Ken,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Ken,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Ken,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,2003010100
+FI-Ken,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H2O
+FI-Ken,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Ken,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Ken,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,2003010100
+FI-Ken,12,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H
+FI-Ken,12,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Ken,12,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Ken,12,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,2003010100
+FI-Ken,13,GRP_SITE_DESC,SITE_DESC,"The Kenttarova ecosystem station (ICOS code FI-Ken) is situated in northern Finland 170 km north of the Arctic Circle, in the vicinity of the Pallas Global Atmosphere Watch station. Norway spruce (Picea abies (L.) H.Karst.) is the dominant tree species in the Kenttarova forest (Hylocomium-Myrtillus type). The main species of the ground floor are Vaccinium myrtillus L., Empetrum nigrum L., Vaccinium vitis-idaea L. and the forest mosses Pleurozium schreberi (Willd. ex Brid.) Mitt., Hylocomium splendens (Hedw.) Schimp. and Dicranum polysetum Sw.. The soil type at the site is podzolic till."
+FI-Ken,14,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,"The FI-Ken site is a Norway spruce forest (with some pubescent birches) on a mineral soil.  The forest is uneven aged (ave 80 yr, oldest 240 yr). The stand is regenerated naturally, but some forest management took place in the late 1960s, when most of the pubescent birch was harvested. The dominant tree height for spruce was 15 m in 2011."
+FI-Ken,16,GRP_LOCATION,LOCATION_LAT,67.98721472
+FI-Ken,16,GRP_LOCATION,LOCATION_LONG,24.24301028
+FI-Ken,16,GRP_LOCATION,LOCATION_ELEV,347
+FI-Ken,16,GRP_LOCATION,LOCATION_DATE,2003010100
+FI-Ken,17,GRP_IGBP,IGBP,ENF
+FI-Ken,17,GRP_IGBP,IGBP_DATE_START,2003010100
+FI-Ken,18,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FI-Ken,18,GRP_LAND_OWNERSHIP,LAND_OWNER,Governmental forest agency (Metsähallitus)
+FI-Ken,19,GRP_UTC_OFFSET,UTC_OFFSET,2
+FI-Ken,19,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,2003010100
+FI-Ken,20,GRP_CLIM_AVG,MAT,-1.4
+FI-Ken,20,GRP_CLIM_AVG,MAP,484
+FI-Ken,20,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,202
+FI-Ken,20,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+FI-Ken,21,SITE_CHAR,ASPECT,N
+FI-Ken,21,SITE_CHAR,TERRAIN,"Medium Slope (>2%, <5%)"
+FI-Ken,22,GRP_TOWER,TOWER_TYPE,Walk-up
+FI-Ken,22,GRP_TOWER,TOWER_POWER,Direct power

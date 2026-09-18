@@ -1,0 +1,67 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FI-Hyy,1,GRP_HEADER,SITE_NAME,Hyytiala
+FI-Hyy,2,GRP_TEAM,TEAM_MEMBER_NAME,Ivan Mammarella
+FI-Hyy,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FI-Hyy,2,GRP_TEAM,TEAM_MEMBER_EMAIL,ivan.mammarella@helsinki.fi
+FI-Hyy,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Helsinki Gustaf Hällströminkatu 2 (P.O.Box 64) 00014 Helsinki Finland
+FI-Hyy,3,GRP_TEAM,TEAM_MEMBER_NAME,Timo Vesala
+FI-Hyy,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+FI-Hyy,3,GRP_TEAM,TEAM_MEMBER_EMAIL,timo.vesala@helsinki.fi
+FI-Hyy,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Helsinki Gustaf Hällströminkatu 2 (P.O.Box 64) 00014 Helsinki Finland
+FI-Hyy,4,GRP_TEAM,TEAM_MEMBER_NAME,Kira Ryhti
+FI-Hyy,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+FI-Hyy,4,GRP_TEAM,TEAM_MEMBER_EMAIL,kira.ryhti@helsinki.fi
+FI-Hyy,5,GRP_TEAM,TEAM_MEMBER_NAME,Abin Thomas
+FI-Hyy,5,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FI-Hyy,5,GRP_TEAM,TEAM_MEMBER_EMAIL,abin.thomas@helsinki.fi
+FI-Hyy,6,GRP_TEAM,TEAM_MEMBER_NAME,Heikki Laakso
+FI-Hyy,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Hyy,6,GRP_TEAM,TEAM_MEMBER_EMAIL,heikki.laakso@helsinki.fi
+FI-Hyy,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,"University of Helsinki Hyytiälä Forest Station, Hyytiäläntie 124 35500 Korkeakosky Finland"
+FI-Hyy,7,GRP_TEAM,TEAM_MEMBER_NAME,Jaana Back
+FI-Hyy,7,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FI-Hyy,7,GRP_TEAM,TEAM_MEMBER_EMAIL,jaana.back@helsinki.fi
+FI-Hyy,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Helsinki Finland
+FI-Hyy,8,GRP_TEAM,TEAM_MEMBER_NAME,Pasi Kolari
+FI-Hyy,8,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FI-Hyy,8,GRP_TEAM,TEAM_MEMBER_EMAIL,pasi.kolari@helsinki.fi
+FI-Hyy,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Helsinki Gustaf Hällströmin katu 2 (P.O.Box 64) 00014 Helsinki Finland
+FI-Hyy,9,GRP_TEAM,TEAM_MEMBER_NAME,Pekka Rantala
+FI-Hyy,9,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+FI-Hyy,9,GRP_TEAM,TEAM_MEMBER_EMAIL,pekka.a.rantala@helsinki.fi
+FI-Hyy,9,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,9,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Helsinki Finland
+FI-Hyy,10,GRP_TEAM,TEAM_MEMBER_NAME,Risto Taipale
+FI-Hyy,10,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Hyy,10,GRP_TEAM,TEAM_MEMBER_EMAIL,risto.taipale@helsinki.fi
+FI-Hyy,11,GRP_TEAM,TEAM_MEMBER_NAME,Teemu Matilainen
+FI-Hyy,11,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Hyy,11,GRP_TEAM,TEAM_MEMBER_EMAIL,teemu.matilainen@helsinki.fi
+FI-Hyy,11,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Helsinki
+FI-Hyy,11,GRP_TEAM,TEAM_MEMBER_ADDRESS,"University of Helsinki Hyytiälä Forest Station, Hyytiäläntie 124 35500 Korkeakosky Finland"
+FI-Hyy,12,GRP_NETWORK,NETWORK,ICOS
+FI-Hyy,13,GRP_SITE_DESC,SITE_DESC,"The station with ICOS code FI-Hyy, is called Hyytiälä and is located in the Hyytiälä Forestry Field Station of the University of Helsinki, 220 km NW from Helsinki. The station is located in a rather homogenous Scots pine (Pinus sylvestris L.) stand on a slightly hilly terrain."
+FI-Hyy,14,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+FI-Hyy,16,GRP_LOCATION,LOCATION_LAT,61.84741
+FI-Hyy,16,GRP_LOCATION,LOCATION_LONG,24.29477
+FI-Hyy,16,GRP_LOCATION,LOCATION_ELEV,181
+FI-Hyy,17,GRP_IGBP,IGBP,ENF
+FI-Hyy,17,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+FI-Hyy,18,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FI-Hyy,18,GRP_LAND_OWNERSHIP,LAND_OWNER,Metsähallitus (State of Finland)
+FI-Hyy,19,GRP_UTC_OFFSET,UTC_OFFSET,2
+FI-Hyy,19,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,19700101
+FI-Hyy,20,GRP_CLIM_AVG,MAT,3.5
+FI-Hyy,20,GRP_CLIM_AVG,MAP,711
+FI-Hyy,20,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+FI-Hyy,21,SITE_CHAR,SURFACE_HOMOGENEITY,150
+FI-Hyy,21,SITE_CHAR,WIND_DIRECTION,SSW
+FI-Hyy,21,SITE_CHAR,ASPECT,NE
+FI-Hyy,21,SITE_CHAR,TERRAIN,Flat
+FI-Hyy,22,GRP_TOWER,TOWER_TYPE,Triangle
+FI-Hyy,22,GRP_TOWER,TOWER_POWER,Direct power

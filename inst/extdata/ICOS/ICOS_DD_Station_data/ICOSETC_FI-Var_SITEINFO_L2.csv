@@ -1,0 +1,58 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FI-Var,1,GRP_HEADER,SITE_NAME,Varrio
+FI-Var,2,GRP_TEAM,TEAM_MEMBER_NAME,Pasi Kolari
+FI-Var,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FI-Var,2,GRP_TEAM,TEAM_MEMBER_EMAIL,pasi.kolari@helsinki.fi
+FI-Var,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland"
+FI-Var,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland Gustaf Hällströmin katu 2 (P.O.Box 64) 00014 Helsinki Finland"
+FI-Var,3,GRP_TEAM,TEAM_MEMBER_NAME,Mikko Sipilä
+FI-Var,3,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+FI-Var,3,GRP_TEAM,TEAM_MEMBER_EMAIL,mikko.sipila@helsinki.fi
+FI-Var,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland"
+FI-Var,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland "
+FI-Var,4,GRP_TEAM,TEAM_MEMBER_NAME,Pasi Aalto
+FI-Var,4,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Var,4,GRP_TEAM,TEAM_MEMBER_EMAIL,pasi.p.aalto@helsinki.fi
+FI-Var,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland"
+FI-Var,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland "
+FI-Var,5,GRP_TEAM,TEAM_MEMBER_NAME,Petri Keronen
+FI-Var,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Var,5,GRP_TEAM,TEAM_MEMBER_EMAIL,petri.keronen@helsinki.fi
+FI-Var,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland"
+FI-Var,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland "
+FI-Var,6,GRP_TEAM,TEAM_MEMBER_NAME,Tuukka Petäjä
+FI-Var,6,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+FI-Var,6,GRP_TEAM,TEAM_MEMBER_EMAIL,tuukka.petaja@helsinki.fi
+FI-Var,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland"
+FI-Var,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Institute for Atmospheric and Earth System Research, University of Helsinki, Finland Finland"
+FI-Var,7,GRP_NETWORK,NETWORK,ICOS
+FI-Var,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,CO2
+FI-Var,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Var,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Var,8,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,20120422
+FI-Var,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H2O
+FI-Var,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Var,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Var,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,20120422
+FI-Var,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H
+FI-Var,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Var,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Var,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,20120422
+FI-Var,11,GRP_SITE_DESC,SITE_DESC,"The Varrio Subarctic Research Station and the Station for Measuring Ecosystem-Atmosphere Relationship (SMEAR I, established in 1991) of the University of Helsinki (UH) are located in Varrio strict nature reserve, Salla, Finnish Laplandon. The flux tower is located at SMEAR I station at the arctic-alpine timberline on the top plateau of the hill of Kotovaara, at 395 m a.s.l, and surrounded by a homogeneous and relative open 10m tall Scots Pine (Pinus sylvestris L.). The trees in the stand are mostly 65-70 years old (in 2017) with a few older trees (up to 150 years). No other disturbances than forest fires, the last one in about 1950."
+FI-Var,14,GRP_LOCATION,LOCATION_LAT,67.7549
+FI-Var,14,GRP_LOCATION,LOCATION_LONG,29.6100
+FI-Var,14,GRP_LOCATION,LOCATION_ELEV,395
+FI-Var,14,GRP_LOCATION,LOCATION_DATE,19910101
+FI-Var,14,GRP_LOCATION,LOCATION_COMMENT,Original location in wrong coordinate system?
+FI-Var,15,GRP_IGBP,IGBP,ENF
+FI-Var,15,GRP_IGBP,IGBP_DATE_START,19000101
+FI-Var,16,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FI-Var,16,GRP_LAND_OWNERSHIP,LAND_OWNER,State of Finland
+FI-Var,17,GRP_UTC_OFFSET,UTC_OFFSET,2
+FI-Var,18,GRP_CLIM_AVG,MAT,-0.5
+FI-Var,18,GRP_CLIM_AVG,MAP,601
+FI-Var,18,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+FI-Var,19,SITE_CHAR,ASPECT,N
+FI-Var,19,SITE_CHAR,TERRAIN,Flat
+FI-Var,20,GRP_TOWER,TOWER_TYPE,Walk-up
+FI-Var,20,GRP_TOWER,TOWER_POWER,Direct power

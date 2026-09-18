@@ -1,0 +1,55 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FI-Sod,1,GRP_HEADER,SITE_NAME,Sodankyla
+FI-Sod,2,GRP_TEAM,TEAM_MEMBER_NAME,Mika Aurela
+FI-Sod,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FI-Sod,2,GRP_TEAM,TEAM_MEMBER_EMAIL,mika.aurela@fmi.fi
+FI-Sod,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Sod,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Sod,3,GRP_TEAM,TEAM_MEMBER_NAME,Annalea Lohila
+FI-Sod,3,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FI-Sod,3,GRP_TEAM,TEAM_MEMBER_EMAIL,annalea.lohila@fmi.fi
+FI-Sod,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Sod,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Sod,4,GRP_TEAM,TEAM_MEMBER_NAME,Erkka Rinne
+FI-Sod,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FI-Sod,4,GRP_TEAM,TEAM_MEMBER_EMAIL,erkka.rinne@fmi.fi
+FI-Sod,5,GRP_TEAM,TEAM_MEMBER_NAME,Hermanni Aaltonen
+FI-Sod,5,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FI-Sod,5,GRP_TEAM,TEAM_MEMBER_EMAIL,hermanni.aaltonen@fmi.fi
+FI-Sod,6,GRP_TEAM,TEAM_MEMBER_NAME,Juha Hatakka
+FI-Sod,6,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FI-Sod,6,GRP_TEAM,TEAM_MEMBER_EMAIL,juha.hatakka@fmi.fi
+FI-Sod,7,GRP_TEAM,TEAM_MEMBER_NAME,Juuso Rainne
+FI-Sod,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+FI-Sod,7,GRP_TEAM,TEAM_MEMBER_EMAIL,juuso.rainne@fmi.fi
+FI-Sod,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Sod,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Sod,8,GRP_TEAM,TEAM_MEMBER_NAME,Milja Männikkö
+FI-Sod,8,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FI-Sod,8,GRP_TEAM,TEAM_MEMBER_EMAIL,milja.mannikko@fmi.fi
+FI-Sod,9,GRP_TEAM,TEAM_MEMBER_NAME,Sami Suopajärvi
+FI-Sod,9,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+FI-Sod,9,GRP_TEAM,TEAM_MEMBER_EMAIL,Sami.Suopajarvi@fmi.fi
+FI-Sod,10,GRP_TEAM,TEAM_MEMBER_NAME,Samu Varjonen
+FI-Sod,10,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FI-Sod,10,GRP_TEAM,TEAM_MEMBER_EMAIL,samu.varjonen@fmi.fi
+FI-Sod,11,GRP_NETWORK,NETWORK,ICOS
+FI-Sod,12,GRP_SITE_DESC,SITE_DESC,"The Sodankyla station (ICOS code FI-Sod) is situated at the Arctic Research Centre of the Finnish Meteorological Institute in Northern Finland, 7 km south of the town of Sodankyla and 100 km north of the Arctic Circle. The area within a 1.5 km radius around the FI-Sod tower is flat, the elevation is 180 m above sea level. The measurements are conducted in a Scots pine (Pinus sylvestris L.) forest which has been naturally regenerated after forest fires; the trees are typically 60-100 years old with individual older trees. The sparse ground vegetation consists of lichens (73%), mosses (12%) and ericaceous shrubs (15%), the ground is normally covered by snow from October to mid-May, and the uppermost soil layers are frozen during the wintertime."
+FI-Sod,15,GRP_LOCATION,LOCATION_LAT,67.36238641
+FI-Sod,15,GRP_LOCATION,LOCATION_LONG,26.63859066
+FI-Sod,15,GRP_LOCATION,LOCATION_ELEV,187
+FI-Sod,15,GRP_LOCATION,LOCATION_DATE,20171020
+FI-Sod,16,GRP_IGBP,IGBP,ENF
+FI-Sod,16,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+FI-Sod,17,GRP_UTC_OFFSET,UTC_OFFSET,2
+FI-Sod,17,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,202110010000
+FI-Sod,17,GRP_UTC_OFFSET,UTC_OFFSET_COMMENT,"Old data have been in UTC, but will be later corrected"
+FI-Sod,18,GRP_CLIM_AVG,MAT,0.5
+FI-Sod,18,GRP_CLIM_AVG,MAP,2424.3
+FI-Sod,18,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+FI-Sod,19,SITE_CHAR,SURFACE_HOMOGENEITY,415
+FI-Sod,19,SITE_CHAR,WIND_DIRECTION,S
+FI-Sod,19,SITE_CHAR,ASPECT,W
+FI-Sod,19,SITE_CHAR,TERRAIN,"Significant Slope (>5%, <10%)"
+FI-Sod,20,GRP_TOWER,TOWER_TYPE,Walk-up
+FI-Sod,20,GRP_TOWER,TOWER_POWER,Direct power

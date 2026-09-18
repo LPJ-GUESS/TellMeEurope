@@ -1,0 +1,65 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FI-Let,1,GRP_HEADER,SITE_NAME,Lettosuo
+FI-Let,2,GRP_TEAM,TEAM_MEMBER_NAME,Mika Korkiakoski
+FI-Let,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FI-Let,2,GRP_TEAM,TEAM_MEMBER_EMAIL,Mika.Korkiakoski@fmi.fi
+FI-Let,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Let,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Let,3,GRP_TEAM,TEAM_MEMBER_NAME,Hermanni Aaltonen
+FI-Let,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+FI-Let,3,GRP_TEAM,TEAM_MEMBER_EMAIL,hermanni.aaltonen@fmi.fi
+FI-Let,4,GRP_TEAM,TEAM_MEMBER_NAME,Annalea Lohila
+FI-Let,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+FI-Let,4,GRP_TEAM,TEAM_MEMBER_EMAIL,annalea.lohila@fmi.fi
+FI-Let,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Let,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Let,5,GRP_TEAM,TEAM_MEMBER_NAME,Juha Hatakka
+FI-Let,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FI-Let,5,GRP_TEAM,TEAM_MEMBER_EMAIL,juha.hatakka@fmi.fi
+FI-Let,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Let,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Let,6,GRP_TEAM,TEAM_MEMBER_NAME,Juha-Pekka Tuovinen
+FI-Let,6,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+FI-Let,6,GRP_TEAM,TEAM_MEMBER_EMAIL,juha-pekka.tuovinen@fmi.fi
+FI-Let,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Let,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Let,7,GRP_TEAM,TEAM_MEMBER_NAME,Juuso Rainne
+FI-Let,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+FI-Let,7,GRP_TEAM,TEAM_MEMBER_EMAIL,juuso.rainne@fmi.fi
+FI-Let,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Let,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Finnish Meteorological Institute Erik Palmenin aukio1 00560 Helsinki Finland
+FI-Let,8,GRP_TEAM,TEAM_MEMBER_NAME,Mika Aurela
+FI-Let,8,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+FI-Let,8,GRP_TEAM,TEAM_MEMBER_EMAIL,mika.aurela@fmi.fi
+FI-Let,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Finnish Meteorological Institute
+FI-Let,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Finnish Meteorological Institute Dept. of Physical Geography and Ecosystem Science, Sölvegatan 12 22362 Lund Sweden"
+FI-Let,9,GRP_NETWORK,NETWORK,ICOS
+FI-Let,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,CO2
+FI-Let,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Let,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Let,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,20090222
+FI-Let,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H2O
+FI-Let,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+FI-Let,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+FI-Let,11,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,20090222
+FI-Let,12,GRP_SITE_DESC,SITE_DESC,"The Lettosuo station (ICOS code FI-Let) is a nutrient-rich peatland forest (originally a fen-type peatland), located in southern Finland, few kilometers from highway 2. The site was drained for forestry in 1969 and partially harvested in March 2016. After drainage, the stand has developed to a mixture of Scots pine (Pinus sylvestris L.) and pubescent birch (Betula pubescens Ehrh.) in the dominant canopy layer, with an understorey of Norway spruce (Picea abies (L.) H.Karst.) with some scattered small-sized pubescent birch."
+FI-Let,13,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,The effect of timber harvesting on greenhouse gases. Continous cover forestry.
+FI-Let,15,GRP_LOCATION,LOCATION_LAT,60.64183
+FI-Let,15,GRP_LOCATION,LOCATION_LONG,23.95952
+FI-Let,15,GRP_LOCATION,LOCATION_ELEV,125
+FI-Let,15,GRP_LOCATION,LOCATION_COMMENT,The footprint area was partially harvested in March 2016.
+FI-Let,16,GRP_IGBP,IGBP,ENF
+FI-Let,16,GRP_IGBP,IGBP_DATE_START,20160401
+FI-Let,17,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FI-Let,17,GRP_LAND_OWNERSHIP,LAND_OWNER,Governmental forest agency
+FI-Let,18,GRP_UTC_OFFSET,UTC_OFFSET,2
+FI-Let,19,GRP_CLIM_AVG,MAT,4.6
+FI-Let,19,GRP_CLIM_AVG,MAP,627
+FI-Let,19,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,90
+FI-Let,19,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfb
+FI-Let,20,SITE_CHAR,SURFACE_HOMOGENEITY,250
+FI-Let,20,SITE_CHAR,WIND_DIRECTION,SW
+FI-Let,20,SITE_CHAR,ASPECT,SW
+FI-Let,20,SITE_CHAR,TERRAIN,Flat
+FI-Let,21,GRP_TOWER,TOWER_TYPE,Other
+FI-Let,21,GRP_TOWER,TOWER_POWER,Direct power

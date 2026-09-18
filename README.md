@@ -53,6 +53,7 @@ Directory:
   custom_ymax:
   custom_ymin:
   gridlist:
+  Landcover:
   ```
  
 ***Switches*** 

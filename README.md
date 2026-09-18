@@ -4,11 +4,11 @@ Benchmarking functionality for DGVMs/LSMs built on DGVMTools.
 DGVMBenchmark is a benchmarking toolset built on the logic of DGVMTools. It makes use of the ease and flexibility that DGVMTools allows for handling DGVM output. DGVMBenchmarks is a comprehensive benchmarking tool which aims for a standardized but flexible and user-friendly framework within which the user is able to evaluate their modeled output against data or against other models.
 The report handles both spatial (gridded) and temporal (time-series) evaluation. As of this version the available file formats compatible with the evaluation structure are LPJ-GUESS (.out), NetCDF (.nc), aDGVM, aDGVM2, ICOS & FLUXNET.
 
-Within the package structure are files and grid lists that can be used as predefined layers to set grid cell extents or correct mismatching Lat Lon for ICOS, FLUXNET and PROFOUND. This is found in /inst/extdata/.
+Within the package structure are files and grid lists that can be used as predefined layers to set grid cell extents or correct mismatching Lat Lon for ICOS & FLUXNET. This is found in /inst/extdata/.
 
 # TellMeEurope
 
-TellMeEurope is a benchmarking report using the functionality of DGVMBenchmarks tailored for European scale data input and simulation output. The report handles both spatial (gridded) and temporal (time-series) evaluation. As of this version the available file formats compatible with the evaluation structure are LPJ-GUESS (.out), NetCDF (.nc), aDGVM (.nc), aDGVM2 (.nc), ICOS, FLUXNET and SITE. ICOS and FLUXNET specially defined formats for ICOS and FLUXNET dataset time-series input, this is processed from raw station input (.csv) (should not be altered before use). SITE is a format to handle more general stations measurement data. For site the format handles .csv file types as most station data is in this format, additionally it also looks for a site name identifier "Site". 
+TellMeEurope is a benchmarking report using the functionality of DGVMBenchmarks tailored for European scale data input and simulation output. The report handles both spatial (gridded) and temporal (time-series) evaluation. As of this version the available file formats compatible with the evaluation structure are LPJ-GUESS (.out), NetCDF (.nc), aDGVM (.nc), aDGVM2 (.nc), ICOS and FLUXNET. ICOS and FLUXNET specially defined formats for ICOS and FLUXNET dataset time-series input, this is processed from raw station input (.csv) (should not be altered before use).  
 
 Several different sets of benchmarks are defined. 
 
@@ -18,11 +18,13 @@ Several different sets of benchmarks are defined.
 
 2. Biomass by plant functional type. This is intended to show the potential biomass of each plant functional type in each grid cell of Europe. There is no comparison to observations for this benchmark. It requires a simulation that allows each plant functional type to grow to its full potential in each grid cell.
 
-**Temporal benchmarks**
+3. Fire Benchmarks. We benchmark LPJ-GUESS BLAZE and SIMFIRE against Carbon fire emissions from GFED4. Annual Burnt area total and annual burnt area fraction against combined (EFDA, GFED5, HILDA+).
 
-3.	Forest management test sites from the PROFOUND dataset (add reference). This includes X sites with variables of leaf area index (LAI), biomass, Stem density, QDBH and DBH. The benchmarks cover the period XXXX. Model simulations should be set up for the best possible representation of the test sites, as described in the paper above. 
+4. Storm benchmarks. We benchmark wind damage against DFDE observed wind damage data.
 
-4.	Eddy covariance flux sites from the ICOS network (covering gross primary productivity, net ecosystem exchange, total ecosystem respiration, evapotranspiration) and FLUXNET network (gross primary productivity, net ecosystem exchange, total ecosystem respiration). Model simulations should be set up to best represent the individual flux sites. Code for a bias correction approach for site climate with which to run the model simulations is available for FLUXNET , but not for ICOS (as the site time-series is currently too short). Additional integrated possibilities in ICOS and FLUXNET to plot against Land cover, Country, Climate and Station.
+**Temporal benchmarks** 
+
+3.	Eddy covariance flux sites from the ICOS network (covering gross primary productivity, net ecosystem exchange, total ecosystem respiration, evapotranspiration) and FLUXNET network (gross primary productivity, net ecosystem exchange, total ecosystem respiration). Model simulations should be set up to best represent the individual flux sites. Code for a bias correction approach for site climate with which to run the model simulations is available for FLUXNET , but not for ICOS (as the site time-series is currently too short). Additional integrated possibilities in ICOS and FLUXNET to plot against Land cover, Country, Climate and Station.
 
 **For** each spatial benchmark it is possible to make maps of Absolute values, Difference maps and density plots. Additionally it is possible to make a summary table displaying the spatial mean for data and simulations as well as a metric table showcasing statistical metrics from comparison evaluation.
 For temporal benchmarks it is possible to plot time-series Absolute values with uncertainty, time-series difference, scatter plots and more specific tailored plotting for ICOS and FLUXNET. Additionally it is possible to make tabular output of statistical metrics from the time-series comparisons.

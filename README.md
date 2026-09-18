@@ -53,7 +53,7 @@ Directory:
   custom_ymax:
   custom_ymin:
   gridlist:
-  Landcover: "your\\path\to\simulation_LC_FILE"
+  Landcover: "your\\path\\to\\simulation_LC_FILE"
   ```
  
 ***Switches*** 

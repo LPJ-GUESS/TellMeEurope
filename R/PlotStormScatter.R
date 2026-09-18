@@ -5,20 +5,21 @@
 #' @param do_plots External argument TRUE or FALSE if plot is to be rendered or not.
 #' @param anno.hjust Horizontal adjustment of equation annotation. 
 #' @param anno.vjust Vertical adjustment of equation annotation. 
+#' @param LC Landcover file loaded from YML
 #' @return Scatterplot of modelled and observed damage
 #' @export
 #'
 #' @examples
 #' @author Karl Piltz (karl.piltz@@nateko.lu.se), Fredrik Lagergren (fredrik.lagergren@@nateko.lu.se)
-plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots = do_plots, anno.hjust = 0, anno.vjust = 0){
+plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots = do_plots, anno.hjust = 0, anno.vjust = 0, LC = NULL){
   # Define paths
   areapath <- file.path(system.file("extdata", "Storm", "GridcellFractionsEMEP", package = "DGVMBenchmarks"))
   
   input_dir <- file.path(system.file("extdata", "Storm", package = "DGVMBenchmarks"))
-  LC_file <- file.path(input_dir, "LC_europe_nat_for_1801_2010_Pucher_noNatural.txt")
   
   
-  lulist <- fread(LC_file)  # Assuming lumap.csv contains long, lat, and land use data
+  
+  lulist <- as.data.table(LC)  # Assuming LC is .txt and contains long, lat, and land use data
   lulist$Year <- lulist$year 
   # Assuming lulist is already loaded as a data.table and Lon, Lat adjusted
   lulist[, `:=`(Lon = Lon - 0.25, Lat = Lat - 0.25)]
@@ -177,13 +178,13 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
     
     # Common range for x and y axes
     x_range <- range(country_table$Reported_Damage, na.rm = TRUE)
-    y_range <- range(country_table$Modelled_Damage_Before_Calibration, na.rm = TRUE)
+    y_range <- range(country_table$Modelled_Damage_After_Calibration, na.rm = TRUE)
     common_range <- c(min(c(x_range[1], y_range[1])), max(c(x_range[2], y_range[2])))
     
     # Define the plot
     storm_scatter <- ggplot(country_table,
                             aes(x = Reported_Damage,
-                                y = Modelled_Damage_Before_Calibration)) +
+                                y = Modelled_Damage_After_Calibration)) +
       geom_point(size = 3.5,
                  shape = 21,
                  fill = "#56B4E9",
@@ -193,11 +194,13 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
                       size = 6, max.overlaps = 10,
                       box.padding = 0.4,
                       segment.color = "grey50") +  # Repel labels
-      geom_abline(slope = slope,
-                  intercept = 0,
-                  linetype = "dotted",
-                  color = "darkred",
-                  size = 1.2) +  # Prominent regression line
+      geom_abline(
+        slope = 1 / slope,
+        intercept = 0,
+        linetype = "dotted",
+        color = "darkred",
+        linewidth = 1.2
+      ) +  # Prominent regression line
       labs(
         x = expression("Total Reported Damage (Milj m"^3*")"),
         y = expression("Total Modelled Damage (Milj m"^3*")"),

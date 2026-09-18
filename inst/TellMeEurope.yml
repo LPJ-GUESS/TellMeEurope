@@ -55,9 +55,9 @@ Fire_C_emissions_table:
     Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
     Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
     Dataset_name: ["GFED4"] # Used in plotting and tabular output
-    Dataset_longname: "Carbon fire emissions from GFED4"
-    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
-    Dataset_description: "combined burned area (EFDA, GFED5, HILDA+)"
+    Dataset_longname: "Global Fire Emissions Database, Version 4, (GFEDv4)"
+    Dataset_source: "Randerson, J.T., G.R. van der Werf, L. Giglio, G.J. Collatz, and P.S. Kasibhatla. 2018. Global Fire Emissions Database, Version 4, (GFEDv4). ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1293"
+    Dataset_description: "This data set provides global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes. The data are at 0.25-degree latitude by 0.25-degree longitude spatial resolution and are available from July 1997 through 2014. Emissions data are available for carbon (C), dry matter (DM), carbon dioxide (CO2), carbon monoxide (CO), methane (CH4), hydrogen (H2), nitrous oxide (N2O), nitrogen oxides (NOx), non-methane hydrocarbons (NMHC), organic carbon (OC), black carbon (BC), particulate matter 2.5 microns (PM2.5), total particulate matter (TPM), and sulfur dioxide (SO2) among others. These data are yearly totals by region, globally, and by fire source for each region."
     ICOS_FLUXNET_Specific:
       UT.threshold: NULL
       partition.method: NULL
@@ -123,9 +123,9 @@ Fire_C_emissions:
     Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
     Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
     Dataset_name: ["GFED4"] # Used in plotting and tabular output
-    Dataset_longname: "Light Response Function GPP (LRF-GPP)"
-    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
-    Dataset_description: "Comparison of annual GPP for 2010 as produced by LPJ-GUESS to the light response function generated GPP based on satellite PAR data (Tagesson et al., 2020). The Light Response Function (LRF) GPP dataset at 0.05° × 0.05° resolution is modelled with an ecosystem-level physiological approach taking the asymptotic relationship between GPP and incoming photosynthetically active radiation (PAR) into account (Tagesson et al., 2020). The data was processed at 0.05° and aggregated to 0.5° taking the grid-cell mean value. 0.05° forest pixels were isolated before aggregation using the Corine Land Cover dataset (CLC) (100m) from Copernicus Land Monitoring Service 2018, European Environment Agency (EEA). Using CLC, a threshold was set to each GPP grid cell, removing all cells with less than 80% forest cover."
+    Dataset_longname: "Global Fire Emissions Database, Version 4, (GFEDv4)"
+    Dataset_source: "Randerson, J.T., G.R. van der Werf, L. Giglio, G.J. Collatz, and P.S. Kasibhatla. 2018. Global Fire Emissions Database, Version 4, (GFEDv4). ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1293"
+    Dataset_description: "This data set provides global estimates of monthly burned area, monthly emissions and fractional contributions of different fire types, daily/3-hourly fields to scale the monthly emissions to higher temporal resolutions, and data for monthly biosphere fluxes. The data are at 0.25-degree latitude by 0.25-degree longitude spatial resolution and are available from July 1997 through 2014. Emissions data are available for carbon (C), dry matter (DM), carbon dioxide (CO2), carbon monoxide (CO), methane (CH4), hydrogen (H2), nitrous oxide (N2O), nitrogen oxides (NOx), non-methane hydrocarbons (NMHC), organic carbon (OC), black carbon (BC), particulate matter 2.5 microns (PM2.5), total particulate matter (TPM), and sulfur dioxide (SO2) among others. These data are yearly totals by region, globally, and by fire source for each region."
     ICOS_FLUXNET_Specific:
       UT.threshold: NULL
       partition.method: NULL

@@ -1,0 +1,1386 @@
+Directory:
+  Sim1: "C:\\Users\\Admin\\Documents\\tellus\\Fire_runs_2026-08-18\\dist_prognostic_landscapefire"
+  Sim1_id: "dist_prognostic_landscapefire"
+  Data: "C:\\Users\\Admin\\Documents\\tellus\\Data_240809"
+  Sim2: ""
+  Sim2_id: ""
+  spatial_extent_id: "Full"
+  custom_xmax: 
+  custom_xmin:
+  custom_ymax:
+  custom_ymin:
+  gridlist:
+
+Switches:
+  do_plots: T
+  do_forest_fraction: F
+  do_agpp: F
+  do_cmass: F
+  do_harvest: F
+  do_stem_density: F
+  do_qdbh: F
+  do_woody_growth: F
+  do_cpool: F
+  do_Regrowth: F
+  do_SIMFIRE: T
+  do_BLAZE: F
+  do_storm: T
+  do_cmass_pft: F
+  do_cmass_pft1: F
+  do_FLUXNET_GPP: F
+  do_FLUXNET_NEE: F
+  do_FLUXNET_Reco: F
+  do_ICOS_GPP: T
+  do_ICOS_NEE: T
+  do_ICOS_Reco: T
+  do_ICOS_ET: T
+  
+
+  ##Fire Benchmarks (Blaze & Simfire)
+## Spatial difference mapping
+Fire_C_emissions_table: 
+  Unit: "Mg km-2 yr-1" # The unit of the Benchmark
+  Id: "Fire C Emissions" # The ID used for tabular output
+  Name: "Fire C Emissions" # Used in plotting
+  Description: "Carbon fire emissions from GFED4" # Used in tabular output
+  Layer: "Fire" # Layer/column in Fields to base the comparison on
+  Data:   
+    Datasets: ["FIRE"]  # Name of Dataset (name of subfolder in data source directory)
+    File_name: ["GFED4_Cemiss_05deg"] # The name of the files to process, should be the same for data and sim. (If ICOS or FLUXNET use data name)
+    Format: ["GUESS"]
+    First_year: NULL # Set first and last year to limit the temporal span, set to null takes the whole timespan 
+    Last_year: NULL
+    year.aggregate.method: "none" # The method to aggregate time dimention 
+    spatial.aggregate.method:
+    Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
+    Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
+    Dataset_name: ["GFED4"] # Used in plotting and tabular output
+    Dataset_longname: "Carbon fire emissions from GFED4"
+    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
+    Dataset_description: "combined burned area (EFDA, GFED5, HILDA+)"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: NULL
+      partition.method: NULL
+      day.night.method: NULL
+      NEE.day.night: NULL
+      rm.leap: NULL
+      data.cleaning: NULL
+      qc.threshold: NULL # ICOS & FLUXNET specific settings.
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["cflux"]
+    Format: ["GUESS"]
+    First_year: 2011
+    Last_year: 2019
+    year.aggregate.method: "none"
+    spatial.aggregate.method: 
+    Conversion_factor: 
+    Layer_to_convert: 
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-0.01, 0.01]
+      Difference_Breaks: [-0.01, -0.0075, -0.005, -0.0025, 0, 0.0025, 0.005, 0.0075, 0.01]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 0.01] # Plotting settings limits and breaks list input []
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T 
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+Fire_C_emissions: 
+  Unit: "g C m² y¹" # The unit of the Benchmark
+  Id: "Annual Burnt area" # The ID used for tabular output
+  Name: "Fire C Emissions" # Used in plotting
+  Description: "Annual Burnt Area" # Used in tabular output
+  Layer: "Fire" # Layer/column in Fields to base the comparison on
+  Data:   
+    Datasets: ["FIRE"]  # Name of Dataset (name of subfolder in data source directory)
+    File_name: ["GFED4_Cemiss_05deg"] # The name of the files to process, should be the same for data and sim. (If ICOS or FLUXNET use data name)
+    Format: ["GUESS"]
+    First_year: 2011 # Set first and last year to limit the temporal span, set to null takes the whole timespan 
+    Last_year: 2019
+    year.aggregate.method: "mean" # The method to aggregate time dimention 
+    spatial.aggregate.method:
+    Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
+    Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
+    Dataset_name: ["GFED4"] # Used in plotting and tabular output
+    Dataset_longname: "Light Response Function GPP (LRF-GPP)"
+    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
+    Dataset_description: "Comparison of annual GPP for 2010 as produced by LPJ-GUESS to the light response function generated GPP based on satellite PAR data (Tagesson et al., 2020). The Light Response Function (LRF) GPP dataset at 0.05° × 0.05° resolution is modelled with an ecosystem-level physiological approach taking the asymptotic relationship between GPP and incoming photosynthetically active radiation (PAR) into account (Tagesson et al., 2020). The data was processed at 0.05° and aggregated to 0.5° taking the grid-cell mean value. 0.05° forest pixels were isolated before aggregation using the Corine Land Cover dataset (CLC) (100m) from Copernicus Land Monitoring Service 2018, European Environment Agency (EEA). Using CLC, a threshold was set to each GPP grid cell, removing all cells with less than 80% forest cover."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: NULL
+      partition.method: NULL
+      day.night.method: NULL
+      NEE.day.night: NULL
+      rm.leap: NULL
+      data.cleaning: NULL
+      qc.threshold: NULL # ICOS & FLUXNET specific settings.
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["cflux"]
+    Format: ["GUESS"]
+    First_year: 2011
+    Last_year: 2019
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor: 
+    Layer_to_convert: 
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-5, 5]
+      Difference_Breaks: [-5, -2.5, 0, 2.5, 5]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 0.00001] # Plotting settings limits and breaks list input []
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T 
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+
+Burnt_area_table: 
+  Unit: "km^2/y" # The unit of the Benchmark
+  Id: "Annual Burnt area" # The ID used for tabular output
+  Name: "Annual Burnt Area" # Used in plotting
+  Description: "combined burned area (EFDA, GFED5, HILDA+)" # Used in tabular output
+  Layer: "BurntFr" # Layer/column in Fields to base the comparison on
+  Data:   
+    Datasets: ["FIRE"]  # Name of Dataset (name of subfolder in data source directory)
+    File_name: ["fire_benchmark_data"] # The name of the files to process, should be the same for data and sim. (If ICOS or FLUXNET use data name)
+    Format: ["GUESS"]
+    First_year: NULL # Set first and last year to limit the temporal span, set to null takes the whole timespan 
+    Last_year: NULL
+    year.aggregate.method: "none" # The method to aggregate time dimention 
+    spatial.aggregate.method:
+    Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
+    Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
+    Dataset_name: ["(EFDA, GFED5, HILDA+)"] # Used in plotting and tabular output
+    Dataset_longname: "combined burned area (EFDA, GFED5, HILDA+)"
+    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
+    Dataset_description: "combined burned area (EFDA, GFED5, HILDA+)"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: NULL
+      partition.method: NULL
+      day.night.method: NULL
+      NEE.day.night: NULL
+      rm.leap: NULL
+      data.cleaning: NULL
+      qc.threshold: NULL # ICOS & FLUXNET specific settings.
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["annual_burned_area"]
+    Format: ["GUESS"]
+    First_year: 2011
+    Last_year: 2019
+    year.aggregate.method: "none"
+    spatial.aggregate.method: 
+    Conversion_factor: 
+    Layer_to_convert: 
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-0.01, 0.01]
+      Difference_Breaks: [-0.01, -0.0075, -0.005, -0.0025, 0, 0.0025, 0.005, 0.0075, 0.01]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 3] # Plotting settings limits and breaks list input []
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T 
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+Burnt_area: 
+  Unit: "%/y" # The unit of the Benchmark
+  Id: "Annual Burnt area" # The ID used for tabular output
+  Name: "Annual Burnt Area" # Used in plotting
+  Description: "Annual Burnt Area" # Used in tabular output
+  Layer: "BurntFr" # Layer/column in Fields to base the comparison on
+  Data:   
+    Datasets: ["FIRE"]  # Name of Dataset (name of subfolder in data source directory)
+    File_name: ["fire_benchmark_data"] # The name of the files to process, should be the same for data and sim. (If ICOS or FLUXNET use data name)
+    Format: ["GUESS"]
+    First_year: NULL # Set first and last year to limit the temporal span, set to null takes the whole timespan 
+    Last_year: NULL
+    year.aggregate.method: "mean" # The method to aggregate time dimention 
+    spatial.aggregate.method:
+    Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
+    Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
+    Dataset_name: ["(EFDA, GFED5, HILDA+)"] # Used in plotting and tabular output
+    Dataset_longname: "Light Response Function GPP (LRF-GPP)"
+    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
+    Dataset_description: "Comparison of annual GPP for 2010 as produced by LPJ-GUESS to the light response function generated GPP based on satellite PAR data (Tagesson et al., 2020). The Light Response Function (LRF) GPP dataset at 0.05° × 0.05° resolution is modelled with an ecosystem-level physiological approach taking the asymptotic relationship between GPP and incoming photosynthetically active radiation (PAR) into account (Tagesson et al., 2020). The data was processed at 0.05° and aggregated to 0.5° taking the grid-cell mean value. 0.05° forest pixels were isolated before aggregation using the Corine Land Cover dataset (CLC) (100m) from Copernicus Land Monitoring Service 2018, European Environment Agency (EEA). Using CLC, a threshold was set to each GPP grid cell, removing all cells with less than 80% forest cover."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: NULL
+      partition.method: NULL
+      day.night.method: NULL
+      NEE.day.night: NULL
+      rm.leap: NULL
+      data.cleaning: NULL
+      qc.threshold: NULL # ICOS & FLUXNET specific settings.
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["annual_burned_area"]
+    Format: ["GUESS"]
+    First_year: 2011
+    Last_year: 2019
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor: 
+    Layer_to_convert: 
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-0.02, 0.02]
+      Difference_Breaks: [-0.02, -0.015, -0.01, -0.005, 0, 0.005, 0.01, 0.015, 0.02]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 3] # Plotting settings limits and breaks list input []
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T 
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+AGPP1: 
+  Unit: "kg/m2/y" # The unit of the Benchmark
+  Id: "AGPP" # The ID used for tabular output
+  Name: "AGPP" # Used in plotting
+  Description: "Annual GPP" # Used in tabular output
+  Layer: "Forest_sum" # Layer/column in Fields to base the comparison on
+  Data:   
+    Datasets: ["european_applications"]  # Name of Dataset (name of subfolder in data source directory)
+    File_name: ["agpp"] # The name of the files to process, should be the same for data and sim. (If ICOS or FLUXNET use data name)
+    Format: ["GUESS"]
+    First_year: NULL # Set first and last year to limit the temporal span, set to null takes the whole timespan 
+    Last_year: NULL
+    year.aggregate.method: "mean" # The method to aggregate time dimention 
+    spatial.aggregate.method:
+    Conversion_factor: NULL # Numeric() list() the factor needed for conversion of dataset, leave empty or NULL if not used
+    Layer_to_convert: NULL # List holding the dataset names of the Fields to be converted
+    Dataset_name: ["LRF-GPP"] # Used in plotting and tabular output
+    Dataset_longname: "Light Response Function GPP (LRF-GPP)"
+    Dataset_source: "Tagesson, T, et al.(2021). https://doi.org/10.1111/gcb.15424"
+    Dataset_description: "Comparison of annual GPP for 2010 as produced by LPJ-GUESS to the light response function generated GPP based on satellite PAR data (Tagesson et al., 2020). The Light Response Function (LRF) GPP dataset at 0.05° × 0.05° resolution is modelled with an ecosystem-level physiological approach taking the asymptotic relationship between GPP and incoming photosynthetically active radiation (PAR) into account (Tagesson et al., 2020). The data was processed at 0.05° and aggregated to 0.5° taking the grid-cell mean value. 0.05° forest pixels were isolated before aggregation using the Corine Land Cover dataset (CLC) (100m) from Copernicus Land Monitoring Service 2018, European Environment Agency (EEA). Using CLC, a threshold was set to each GPP grid cell, removing all cells with less than 80% forest cover."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: NULL
+      partition.method: NULL
+      day.night.method: NULL
+      NEE.day.night: NULL
+      rm.leap: NULL
+      data.cleaning: NULL
+      qc.threshold: NULL # ICOS & FLUXNET specific settings.
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["agpp_sts","agpp"]
+    Format: ["GUESS"]
+    First_year: 2006
+    Last_year: 2015
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor: 
+    Layer_to_convert: 
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-1, 1]
+      Difference_Breaks: [-1, -0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75, 1]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 3] # Plotting settings limits and breaks list input []
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T 
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+CMASS1:
+  Unit: "kg/m2"
+  Id: "Cmass"
+  Name: "Cmass"
+  Description: "Cmass"  
+  Layer: "Forest_sum"
+  Data:
+    Datasets: ["european_applications"]
+    File_name: ["cmass_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "mean"
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "NFI"
+    Dataset_longname: "National Forest Inventory (NFI)"
+    Dataset_source: "Global Forest Dynamics database"
+    Dataset_description: "Comparison of grid-cell level simulated values of above ground Carbon mass in forests from LPJ-GUESS to National Forest Inventory estimates for 2010."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["cmass_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: 2010
+    Last_year: 2010
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-15, 18]
+      Difference_Breaks: [-15, -10, -5, 0, 5, 10, 15]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 30]
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+
+W_GROWTH1:
+  Unit: "kg/m2/y"
+  Id: "W_growth"
+  Name: "W_growth"
+  Description: "W_growth"  
+  Layer: "Forest_sum"
+  Data:
+    Datasets: ["european_applications"]
+    File_name: ["cmass_wood_inc_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "mean"
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "NFI"
+    Dataset_longname: "National Forest Inventory (NFI)"
+    Dataset_source: "Global Forest Dynamics database"
+    Dataset_description: "Woody biomass growth which has been estimated from inventory plots"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["cmass_wood_inc_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: 2006
+    Last_year: 2015
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-1, 0.4]
+      Difference_Breaks: [-1, -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 1]
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+
+STEM_DENSITY1:
+  Unit: "indiv/ha"
+  Id: "stem density"
+  Name: "stem density"
+  Description: "stem density"  
+  Layer: "Forest_sum"
+  Data:
+    Datasets: ["european_applications"]
+    File_name: ["dens_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "mean"
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "NFI"
+    Dataset_longname: "National Forest Inventory (NFI)"
+    Dataset_source: "Global Forest Dynamics database"
+    Dataset_description: "Stem density from NFI data compiled from tmp5"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["dens_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: 2010
+    Last_year: 2010
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-1000, 1000]
+      Difference_Breaks: [-1000, -750, -500, -250, 0, 250, 500, 750, 1000]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 1500]
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+
+QDBH1:
+  Unit: "cm"
+  Id: "QDBH"
+  Name: "QDBH"
+  Description: "QDBH"  
+  Layer: "Forest_sum"
+  Data:
+    Datasets: ["european_applications"]
+    File_name: ["diam_g_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "mean"
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "NFI"
+    Dataset_longname: "National Forest Inventory (NFI)"
+    Dataset_source: "Global Forest Dynamics database"
+    Dataset_description: "QDBH estimated from NFI measurments"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["diam_g_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: 2010
+    Last_year: 2010
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Difference_Limits: [-30, 30]
+      Difference_Breaks: [-30, -25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30]
+      Percentage.difference_Limits: [-100, 100]
+      Percentage.difference_Breaks: [-100, -80, -60, -40, -20, 0, 20, 40, 60, 80, 100]
+      Values_Limits:
+      Values_Breaks:
+    Spatial_Scatter:
+      Limits: [0, 60]
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+## PFT Benchmarks   
+
+
+CMASS_pft:
+  Unit: "kg/m2"
+  Id: "Cmass PFT"
+  Name: "Cmass PFT"
+  Description: "Cmass PFT"  
+  Layer: ["Abi_alb", "BES", "Bet_pen", "Bet_pub", "Car_bet", "Cor_ave", "Fag_syl", "Fra_exc", "Jun_oxy", "Lar_dec", "MRS", "Pic_abi", "Pin_syl", "Pin_hal", "Pop_tre", "Que_coc", "Que_ile", "Que_pub", "Que_rob", "Til_cor", "C3_gr"]
+  Data:
+    Datasets: 
+    File_name: 
+    Format: 
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: 
+    Dataset_longname: 
+    Dataset_source: 
+    Dataset_description: 
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["cmass_forest"]
+    Format: ["GUESS"]
+    First_year: 2010
+    Last_year: 2010
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+CMASS_pft1:
+  Unit: "kg/m2"
+  Id: "Cmass PFT"
+  Name: "Cmass PFT"
+  Description: "Cmass PFT"  
+  Layer: ["Abi_alb", "BES", "Bet_pen", "Bet_pub", "Car_bet", "Cor_ave", "Fag_syl", "Fra_exc", "Jun_oxy", "Lar_dec", "MRS", "Pic_abi", "Pin_syl", "Pin_hal", "Pop_tre", "Que_coc", "Que_ile", "Que_pub", "Que_rob", "Til_cor", "C3_gr"]
+  Data:
+    Datasets: 
+    File_name: 
+    Format: 
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: 
+    Dataset_longname: 
+    Dataset_source: 
+    Dataset_description: 
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["cmass_forest"]
+    Format: ["GUESS"]
+    First_year: 2010
+    Last_year: 2010
+    year.aggregate.method: "mean"
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+
+## Regrowth benchmark
+
+    
+REGROWTH:
+  Unit: "kg/m2"
+  Id: "Regrowth"
+  Name: "Regrowth"
+  Description: "Growback"  
+  Layer: "Total"
+  Data:
+    Datasets: 
+    File_name: 
+    Format: 
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "mean"
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: ""
+    Dataset_longname: ""
+    Dataset_source: ""
+    Dataset_description: ""
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["regrowth"]
+    File_name: ["cmass_wood_plus10cm_sts"]
+    Format: ["GUESS"]
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "none"
+    spatial.aggregate.method: "none"
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: [-1, 0.4]
+      Breaks: [-1, -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4]
+    Spatial_Scatter:
+      Limits: [0, 1]
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+
+
+## Storm disturbance benchmark
+    
+STORM:
+  Unit: ""
+  Id: "Storm Disturbance"
+  Name: "Storm Disturbance"
+  Description: "Simulated wind damage in a severe storm averaged over the period 1986-2020 and how this combines with annual storm probability to produce an estimate of annual wind damage. The results across the simulation domain are benchmarked to observation-based damage statistics from the DFDE database"  
+  Layer: "DamWoodCPot"
+  Data:
+    Datasets: 
+    File_name: 
+    Format: 
+    First_year: NULL
+    Last_year: NULL
+    year.aggregate.method: "mean"
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: ""
+    Dataset_longname: ""
+    Dataset_source: ""
+    Dataset_description: ""
+    ICOS_FLUXNET_Specific:
+      UT.threshold: 
+      partition.method: 
+      day.night.method: 
+      NEE.day.night: 
+      rm.leap: 
+      data.cleaning: 
+      qc.threshold: 
+  Simulations:
+    Simulation: ["european_applications"]
+    File_name: ["storm"]
+    Format: ["GUESS"]
+    First_year: 1986
+    Last_year: 2020
+    year.aggregate.method: "none"
+    spatial.aggregate.method: "none"
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: [-1, 0.4]
+      Breaks: [-1, -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4]
+    Spatial_Scatter:
+      Limits: [0, 1]
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+
+#### FLUXNET BENCHMARKS
+  FLUXNET_GPP1:
+  Unit: "kgC/m2/day"
+  Id: "GPP"
+  Name: "GPP"
+  Description: "Daily Gross Primary Production"  
+  Layer: "GPP"
+  Data:
+    Datasets: ["FLUXNET"]
+    File_name: ["GPP"]
+    Format: ["FLUXNET"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "FLUXNET"
+    Dataset_longname: "FLUXNET GPP"
+    Dataset_source: "FLUXNET"
+    Dataset_description: "Comparison of daily GPP produced by LPJ-GUESS to the FLUXNET measurment daily GPP station data."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      rm.leap: "TRUE"
+      data.cleaning: "TRUE"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["dgpp"]
+    Format: ["GUESS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+FLUXNET_NEE1:
+  Unit: "kgC/m2/day"
+  Id: "NEE"
+  Name: "NEE"
+  Description: "Daily Net Ecosystem Exchange"  
+  Layer: "NEE"
+  Data:
+    Datasets: ["FLUXNET"]
+    File_name: ["NEE"]
+    Format: ["FLUXNET"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "FLUXNET"
+    Dataset_longname: "FLUXNET NEE"
+    Dataset_source: "FLUXNET"
+    Dataset_description: "Comparison of daily NEE produced by LPJ-GUESS to the FLUXNET measurment station data."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      rm.leap: "TRUE"
+      data.cleaning: "TRUE"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["dnee"]
+    Format: ["GUESS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+FLUXNET_Reco1:
+  Unit: "kgC/m2/day"
+  Id: "Reco"
+  Name: "Reco"
+  Description: "Daily Ecosystem Respiration"  
+  Layer: "Reco"
+  Data:
+    Datasets: ["FLUXNET"]
+    File_name: ["Reco"]
+    Format: ["FLUXNET"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "FLUXNET"
+    Dataset_longname: "FLUXNET Reco"
+    Dataset_source: "FLUXNET"
+    Dataset_description: "Comparison of daily Reco produced by LPJ-GUESS to the FLUXNET measurment station data."
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      rm.leap: "TRUE"
+      data.cleaning: "TRUE"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["dreco"]
+    Format: ["GUESS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F      
+
+##### ICOS BENCHMARKS        
+ICOS_GPP1:
+  Unit: "kgC/m2/day"
+  Id: "GPP"
+  Name: "GPP"
+  Description: "Daily GPP"  
+  Layer: "GPP"
+  Data:
+    Datasets: ["ICOS"]
+    File_name: ["GPP"]
+    Format: ["ICOS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "ICOS"
+    Dataset_longname: "ICOS GPP"
+    Dataset_source: "ICOS Carbon portal"
+    Dataset_description: "Comparison of daily GPP produced by LPJ-GUESS to the ICOS measurment daily GPP station data from Hyltemossa, Svartberget & Norunda"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      LE.method: "MDS"
+      LE.correction: 75
+      rm.leap: "TRUE"
+      data.cleaning: "TRUE"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["dgpp"]
+    Format: ["GUESS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+
+ICOS_NEE1:
+  Unit: "kgC/m2/day"
+  Id: "NEE"
+  Name: "NEE"
+  Description: "Daily NEE"  
+  Layer: "NEE"
+  Data:
+    Datasets: ["ICOS"]
+    File_name: ["NEE"]
+    Format: ["ICOS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "ICOS"
+    Dataset_longname: "ICOS NEE"
+    Dataset_source: "ICOS Carbon portal"
+    Dataset_description: "Comparison of daily NEE produced by LPJ-GUESS to the ICOS measurment daily NEE station data from Hyltemossa, Svartberget & Norunda"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      LE.method: "MDS"
+      LE.correction: 75
+      rm.leap: "TRUE"
+      data.cleaning: "TRUE"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["dnee"]
+    Format: ["GUESS"]
+    First_year: 2013
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+    
+
+ICOS_Reco1:
+  Unit: "kgC/m2/day"
+  Id: "Reco"
+  Name: "Reco"
+  Description: "Daily Reco"  
+  Layer: "Reco"
+  Data:
+    Datasets: ["ICOS"]
+    File_name: ["Reco"]
+    Format: ["ICOS"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "ICOS"
+    Dataset_longname: "ICOS Reco"
+    Dataset_source: "ICOS Carbon portal"
+    Dataset_description: "Comparison of daily Reco produced by LPJ-GUESS to the ICOS measurment daily Reco station data from Hyltemossa, Svartberget & Norunda"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      LE.method: "MDS"
+      LE.correction: 75
+      rm.leap: "TRUE"
+      data.cleaning: "TRUE"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["dreco"]
+    Format: ["GUESS"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F
+
+ICOS_ET1:
+  Unit: "mm/day"
+  Id: "ET"
+  Name: "ET"
+  Description: "Daily Evapotranspiration"  
+  Layer: "ET"
+  Data:
+    Datasets: ["ICOS"]
+    File_name: ["ET"]
+    Format: ["ICOS"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method:
+    Conversion_factor:
+    Layer_to_convert:
+    Dataset_name: "ICOS"
+    Dataset_longname: "ICOS Evapotranspiration"
+    Dataset_source: "ICOS Carbon portal"
+    Dataset_description: "Comparison of daily ET produced by LPJ-GUESS to the ICOS measurment daily GPP station data from Hyltemossa, Svartberget & Norunda"
+    ICOS_FLUXNET_Specific:
+      UT.threshold: "VUT"
+      partitioning.method: "REF"
+      day.night.method: "NT"
+      NEE.day.night: NULL
+      LE.method: "MDS"
+      LE.correction: "75"
+      rm.leap: "TRUE"
+      data.cleaning: "F"
+      qc.threshold: 0.5
+  Simulations:
+    Simulation: ["European Applications"]
+    File_name: ["det_total"]
+    Format: ["GUESS"]
+    First_year: 2003
+    Last_year: 2022
+    year.aggregate.method: 
+    spatial.aggregate.method: 
+    Conversion_factor:
+    Layer_to_convert:
+    aDGVM_Specific:
+      adgvm.file.type: "Yearly"
+      adgvm.fire: 1
+      adgvm.climate: 0
+    aDGVM2_Specific:
+      adgvm2.scheme: 1
+      adgvm2.daily: TRUE
+  Plotting:
+    Spatial_Difference:
+      Limits: 
+      Breaks: 
+    Spatial_Scatter:
+      Limits: 
+  Statistics:
+    ME: F
+    NME: F
+    NMSE: T
+    RMSE: T
+    NME_2: F
+    NMSE_2: F
+    NME_3: F
+    NMSE_3: F
+    r: F
+    r2: T
+    r2_eff: F      
+
+    
+       

@@ -42,11 +42,11 @@ The YAML instruction file is where the user defines and structures their benchma
 ```yaml
 # Directory (YML)
 Directory:
-  New: "your\\path\\to\\simulation1"
-  New_id: "Euapp probabilistic harvest"
+  Sim1: "your\\path\\to\\simulation1"
+  Sim1_id: "Euapp probabilistic harvest"
   Data: "your\\path\\to\\Data"
-  Old: "your\\path\\to\\simulation2"
-  Old_id: "Euapp with thinning"
+  Sim2: "your\\path\\to\\simulation2" #Optional
+  Sim2_id: "Euapp with thinning"
   spatial_extent_id: "Full"
   custom_xmax:
   custom_xmin:

@@ -1,0 +1,58 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+IT-Cp2,1,GRP_HEADER,SITE_NAME,Castelporziano2
+IT-Cp2,2,GRP_TEAM,TEAM_MEMBER_NAME,Silvano Fares
+IT-Cp2,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+IT-Cp2,2,GRP_TEAM,TEAM_MEMBER_EMAIL,silvano.fares@cnr.it
+IT-Cp2,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Council for Agricultural Research and Economics
+IT-Cp2,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Council for Agricultural Research and Economics Viale Santa Margherita 80 52100 Arezzo Italy
+IT-Cp2,3,GRP_TEAM,TEAM_MEMBER_NAME,Tiziano Sorgi
+IT-Cp2,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+IT-Cp2,3,GRP_TEAM,TEAM_MEMBER_EMAIL,tiziano.sorgi@crea.gov.it
+IT-Cp2,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Council of Agricultural Research and Economics
+IT-Cp2,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Council of Agricultural Research and Economics Viale Santa Margherita 80 52100 Arezzo Italy
+IT-Cp2,4,GRP_TEAM,TEAM_MEMBER_NAME,Adriano Conte
+IT-Cp2,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+IT-Cp2,4,GRP_TEAM,TEAM_MEMBER_EMAIL,adriano.conte@cnr.it
+IT-Cp2,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CNR
+IT-Cp2,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,CNR 
+IT-Cp2,5,GRP_TEAM,TEAM_MEMBER_NAME,Carlotta Ferrara
+IT-Cp2,5,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+IT-Cp2,5,GRP_TEAM,TEAM_MEMBER_EMAIL,carlotta.ferrara@crea.gov.it
+IT-Cp2,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Council for Agricultural Research and Economics (CREA)
+IT-Cp2,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Council for Agricultural Research and Economics (CREA) 
+IT-Cp2,6,GRP_TEAM,TEAM_MEMBER_NAME,Lina Fusaro
+IT-Cp2,6,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+IT-Cp2,6,GRP_TEAM,TEAM_MEMBER_EMAIL,lina.fusaro@cnr.it
+IT-Cp2,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CNR
+IT-Cp2,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,CNR 
+IT-Cp2,7,GRP_TEAM,TEAM_MEMBER_NAME,Roberto Corsanici
+IT-Cp2,7,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+IT-Cp2,7,GRP_TEAM,TEAM_MEMBER_EMAIL,roberto.corsanici@unitus.it
+IT-Cp2,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,UNITUS
+IT-Cp2,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,UNITUS 
+IT-Cp2,8,GRP_TEAM,TEAM_MEMBER_NAME,Valerio Moretti
+IT-Cp2,8,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+IT-Cp2,8,GRP_TEAM,TEAM_MEMBER_EMAIL,valerio.moretti@crea.gov.it
+IT-Cp2,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Council of Agricultural Research and Economics
+IT-Cp2,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,Council of Agricultural Research and Economics Viale Santa Margherita 80 52100 Arezzo Italy
+IT-Cp2,9,GRP_NETWORK,NETWORK,ICOS
+IT-Cp2,10,GRP_SITE_DESC,SITE_DESC,"The station Castelporziano (ICOS code IT-Cp2) is located in the Presidential Estate of Castelporziano, 25 km SW from the center of Rome, Italy and covers an area of about 6000 ha. The undisturbed Mediterranean oak forest of Castelporziano Estate hosts an experimental tower 20 m tall. The forest is a pure Holm Oak stand with some shrubs in the understory."
+IT-Cp2,11,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+IT-Cp2,13,GRP_LOCATION,LOCATION_LAT,41.70426559
+IT-Cp2,13,GRP_LOCATION,LOCATION_LONG,12.35729313
+IT-Cp2,13,GRP_LOCATION,LOCATION_ELEV,17
+IT-Cp2,14,GRP_IGBP,IGBP,MF
+IT-Cp2,14,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+IT-Cp2,15,GRP_UTC_OFFSET,UTC_OFFSET,1
+IT-Cp2,16,GRP_CLIM_AVG,MAT,16.43
+IT-Cp2,16,GRP_CLIM_AVG,MAP,601
+IT-Cp2,16,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,0
+IT-Cp2,16,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Csa
+IT-Cp2,17,SITE_CHAR,SURFACE_HOMOGENEITY,300
+IT-Cp2,17,SITE_CHAR,WIND_DIRECTION,NE
+IT-Cp2,17,SITE_CHAR,ASPECT,E
+IT-Cp2,17,SITE_CHAR,TERRAIN,Gentle slope (<2 %)
+IT-Cp2,18,GRP_TOWER,TOWER_TYPE,Walk-up
+IT-Cp2,18,GRP_TOWER,TOWER_POWER,Direct power
+IT-Cp2,19,GRP_TOWER,TOWER_TYPE,Walk-up
+IT-Cp2,19,GRP_TOWER,TOWER_POWER,Direct power

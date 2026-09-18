@@ -1,0 +1,60 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+IT-Ren,1,GRP_HEADER,SITE_NAME,Renon
+IT-Ren,2,GRP_TEAM,TEAM_MEMBER_NAME,Leonardo Montagnani
+IT-Ren,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+IT-Ren,2,GRP_TEAM,TEAM_MEMBER_EMAIL,leonardo.montagnani@unibz.it
+IT-Ren,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Autonomous Province of Bolzano, Forest Services"
+IT-Ren,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Autonomous Province of Bolzano, Forest Services Via Brennero 6 39100 Bolzano Italy"
+IT-Ren,3,GRP_TEAM,TEAM_MEMBER_NAME,Enrico Tomelleri
+IT-Ren,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+IT-Ren,3,GRP_TEAM,TEAM_MEMBER_EMAIL,enrico.tomelleri@unibz.it
+IT-Ren,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Free University of Bozen/Bolzano
+IT-Ren,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Free University of Bozen/Bolzano 
+IT-Ren,4,GRP_TEAM,TEAM_MEMBER_NAME,Anna Candotti
+IT-Ren,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+IT-Ren,4,GRP_TEAM,TEAM_MEMBER_EMAIL,anna.candotti@unibz.it
+IT-Ren,5,GRP_TEAM,TEAM_MEMBER_NAME,Fabio Tenca
+IT-Ren,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+IT-Ren,5,GRP_TEAM,TEAM_MEMBER_EMAIL,fabio.tenca@provinz.bz.it
+IT-Ren,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Autonomous Province of Bolzano, Forest Services"
+IT-Ren,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Autonomous Province of Bolzano, Forest Services Via Brennero 6 39100 Bolzano Italy"
+IT-Ren,6,GRP_TEAM,TEAM_MEMBER_NAME,Giorgio Folino
+IT-Ren,6,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+IT-Ren,6,GRP_TEAM,TEAM_MEMBER_EMAIL,giorgio.folino@unibz.it
+IT-Ren,7,GRP_TEAM,TEAM_MEMBER_NAME,Ivo Cobbe
+IT-Ren,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+IT-Ren,7,GRP_TEAM,TEAM_MEMBER_EMAIL,ivo.cobbe@provinz.bz.it
+IT-Ren,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Autonomous Province of Bolzano, Forest Services"
+IT-Ren,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Autonomous Province of Bolzano, Forest Services Via Brennero 6 39100 Bolzano Italy"
+IT-Ren,8,GRP_TEAM,TEAM_MEMBER_NAME,Jacob Frenes
+IT-Ren,8,GRP_TEAM,TEAM_MEMBER_ROLE,ADMIN
+IT-Ren,8,GRP_TEAM,TEAM_MEMBER_EMAIL,Jacob.Frenes@provinz.bz.it
+IT-Ren,9,GRP_TEAM,TEAM_MEMBER_NAME,Massimo Bortoli
+IT-Ren,9,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+IT-Ren,9,GRP_TEAM,TEAM_MEMBER_EMAIL,massimo.bortoli@provinz.bz.it
+IT-Ren,9,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Autonomous Province of Bolzano, Forest Services"
+IT-Ren,9,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Autonomous Province of Bolzano, Forest Services "
+IT-Ren,10,GRP_TEAM,TEAM_MEMBER_NAME,Maurizio Ventura
+IT-Ren,10,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+IT-Ren,10,GRP_TEAM,TEAM_MEMBER_EMAIL,maurizio.ventura@unibz.it
+IT-Ren,11,GRP_NETWORK,NETWORK,ICOS
+IT-Ren,12,GRP_SITE_DESC,SITE_DESC,"The station Renon, with ICOS code IT-Ren, is located in the Italian Alps at about 7 Km north of Bolzano. The site is a typical subalpine forest (Picea abies (L.) Karst.), with an un-evenaged structure and presence of Larix decidua Mill. and Pinus cembra L. at 1735 m above sea. It is covered by snow on average 120 days a year. The dominant trees are about 200 years old and the ecosystem is characterized by understory vegetation with shrubs (Vaccinium mirtyllum St., Rhododendron ferrugineum L.), herbs (Deschampsia flexuosa (L.) Trin.) and forbs."
+IT-Ren,15,GRP_LOCATION,LOCATION_LAT,46.58686
+IT-Ren,15,GRP_LOCATION,LOCATION_LONG,11.43369
+IT-Ren,15,GRP_LOCATION,LOCATION_ELEV,1744
+IT-Ren,15,GRP_LOCATION,LOCATION_DATE,20200802
+IT-Ren,16,GRP_IGBP,IGBP,ENF
+IT-Ren,16,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+IT-Ren,17,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Private
+IT-Ren,18,GRP_UTC_OFFSET,UTC_OFFSET,1
+IT-Ren,18,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,20180630
+IT-Ren,19,GRP_CLIM_AVG,MAT,4.9
+IT-Ren,19,GRP_CLIM_AVG,MAP,970.8
+IT-Ren,19,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,120
+IT-Ren,19,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+IT-Ren,20,SITE_CHAR,SURFACE_HOMOGENEITY,590
+IT-Ren,20,SITE_CHAR,WIND_DIRECTION,NW
+IT-Ren,20,SITE_CHAR,ASPECT,SSW
+IT-Ren,20,SITE_CHAR,TERRAIN,"Significant Slope (>5%, <10%)"
+IT-Ren,21,GRP_TOWER,TOWER_TYPE,Pole
+IT-Ren,21,GRP_TOWER,TOWER_POWER,Direct power

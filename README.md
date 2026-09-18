@@ -53,23 +53,35 @@ Directory:
   custom_ymax:
   custom_ymin:
   gridlist:
-  Landcover:
+  Landcover: "your\\path\to\simulation_LC_FILE"
   ```
  
 ***Switches*** 
 ```yaml
 ##Switches (YML)
 Switches:
-  do_plots: TRUE
-  do_agpp: TRUE
-  do_cmass: FALSE
-  do_stem_density: FALSE
-  do_qdbh: FALSE
-  do_woody_growth: TRUE
-  do_profound: FALSE
-  do_cmass_pft: TRUE
-  do_cmass_pft1: FALSE
-  do_ICOS_GPP: TRUE
+ do_plots: T
+  do_forest_fraction: F
+  do_agpp: F
+  do_cmass: F
+  do_harvest: F
+  do_stem_density: F
+  do_qdbh: F
+  do_woody_growth: F
+  do_cpool: F
+  do_Regrowth: F
+  do_SIMFIRE: T
+  do_BLAZE: F
+  do_storm: F
+  do_cmass_pft: F
+  do_cmass_pft1: F
+  do_FLUXNET_GPP: F
+  do_FLUXNET_NEE: F
+  do_FLUXNET_Reco: F
+  do_ICOS_GPP: T
+  do_ICOS_NEE: T
+  do_ICOS_Reco: T
+  do_ICOS_ET: T
   ```
 The rest of the objects are benchmark specific and should be filled out as per benchmark.
 Below is the object for a benchmark of modeled annual GPP evaluated against satellite-derived GPP. The information is used to build the benchmark using Unit, Id, Name, Description and Layer which apply for both data and simulation. Additionally there are settings for how the user wants to process their data and simulations in more detail. The processing settings handle sub-directory, file_name and Format as well as temporal range, aggregation methods and conversion factor. The benchmark is made to handle multiple datasets and also simulations with different formats per benchmark. To add more datasets or or simulations from different models you simply add an extra entry to the sub-directory, file name and format setting. For data there is also additional settings specific for processing ICOS and FLUXNET data.

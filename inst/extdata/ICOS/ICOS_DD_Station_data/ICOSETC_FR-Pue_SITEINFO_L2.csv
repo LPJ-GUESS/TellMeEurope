@@ -1,0 +1,32 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FR-Pue,1,GRP_HEADER,SITE_NAME,Puechabon
+FR-Pue,2,GRP_TEAM,TEAM_MEMBER_NAME,Jean-Marc Limousin
+FR-Pue,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FR-Pue,2,GRP_TEAM,TEAM_MEMBER_EMAIL,jean-marc.LIMOUSIN@cefe.cnrs.fr
+FR-Pue,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CEFE-CNRS
+FR-Pue,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,CEFE-CNRS 1919 route de Mende 34293 Montpellier cedex 5 France
+FR-Pue,3,GRP_TEAM,TEAM_MEMBER_NAME,Jean Kempf
+FR-Pue,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+FR-Pue,3,GRP_TEAM,TEAM_MEMBER_EMAIL,jean.KEMPF@cefe.cnrs.fr
+FR-Pue,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CEFE-CNRS
+FR-Pue,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,CEFE-CNRS 1919 route de Mende 34293 Montpellier cedex 5 France
+FR-Pue,4,GRP_NETWORK,NETWORK,ICOS
+FR-Pue,5,GRP_SITE_DESC,SITE_DESC,"The Puechabon experimental site (ICOS code FR-Pue) is located in the Puechabon State Forest on a flat area 35 km North-West of Montpellier in the South of France. The area has a Mediterranean-type climate, rainfall occurs mainly during autumn and winter with about 75% between September and April. Vegetation is largely dominated by the overstorey tree Quercus ilex L. whose percent cover is greater than 80%. Understorey species compose a sparse shrubby layer with the main species being Buxus sempervirens L., Phillyrea latifolia L., Pistacia terebinthus L. and Juniperus oxycedrus L.. This forest grows on rocky soil from hard Jurassic limestone filled with clay. Because of the large fraction of rocks and stones in the soil profile available water cumulated over 4.5 m depth averages only 150 mm. As a consequence of this small soil water reserve, the vegetation undergoes very frequent drought stress during the summer."
+FR-Pue,8,GRP_LOCATION,LOCATION_LAT,43.7413
+FR-Pue,8,GRP_LOCATION,LOCATION_LONG,3.5957
+FR-Pue,8,GRP_LOCATION,LOCATION_ELEV,271
+FR-Pue,9,GRP_IGBP,IGBP,EBF
+FR-Pue,9,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+FR-Pue,10,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FR-Pue,10,GRP_LAND_OWNERSHIP,LAND_OWNER,State
+FR-Pue,11,GRP_UTC_OFFSET,UTC_OFFSET,1
+FR-Pue,11,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,201512091001
+FR-Pue,12,GRP_CLIM_AVG,MAT,13.3
+FR-Pue,12,GRP_CLIM_AVG,MAP,924
+FR-Pue,12,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Csa
+FR-Pue,13,SITE_CHAR,SURFACE_HOMOGENEITY,200
+FR-Pue,13,SITE_CHAR,WIND_DIRECTION,NNW
+FR-Pue,13,SITE_CHAR,ASPECT,ESE
+FR-Pue,13,SITE_CHAR,TERRAIN,Strong Slope (>10%)
+FR-Pue,14,GRP_TOWER,TOWER_TYPE,Walk-up
+FR-Pue,14,GRP_TOWER,TOWER_POWER,Direct power

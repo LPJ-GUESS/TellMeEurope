@@ -1,0 +1,56 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FR-Fon,1,GRP_HEADER,SITE_NAME,Fontainebleau-Barbeau
+FR-Fon,2,GRP_TEAM,TEAM_MEMBER_NAME,Daniel Berveiller
+FR-Fon,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FR-Fon,2,GRP_TEAM,TEAM_MEMBER_EMAIL,daniel.berveiller@universite-paris-saclay.fr
+FR-Fon,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CNRS - IDEEV | Lab ESE
+FR-Fon,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,CNRS - IDEEV | Lab ESE 12 route 128 91190 Gif-sur-Yvette France
+FR-Fon,3,GRP_TEAM,TEAM_MEMBER_NAME,Nicolas Delpierre
+FR-Fon,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+FR-Fon,3,GRP_TEAM,TEAM_MEMBER_EMAIL,nicolas.delpierre@universite-paris-saclay.fr
+FR-Fon,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Universite Paris-Saclay - IDEEV | Lab ESE
+FR-Fon,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Universite Paris-Saclay - IDEEV | Lab ESE 12 route 128 91190 Gif-sur-Yvette France
+FR-Fon,4,GRP_TEAM,TEAM_MEMBER_NAME,Alexandre Morfin
+FR-Fon,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+FR-Fon,4,GRP_TEAM,TEAM_MEMBER_EMAIL,alexandre.morfin@universite-paris-saclay.fr
+FR-Fon,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CNRS - IDEEV | Lab ESE
+FR-Fon,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,CNRS - IDEEV | Lab ESE 12 route 128 91190 Gif-sur-Yvette France
+FR-Fon,5,GRP_TEAM,TEAM_MEMBER_NAME,Charlotte Girardin
+FR-Fon,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+FR-Fon,5,GRP_TEAM,TEAM_MEMBER_EMAIL,charlotte.girardin@universite-paris-saclay.fr
+FR-Fon,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Universite Paris-Saclay - IDEEV | Lab ESE
+FR-Fon,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Universite Paris-Saclay - IDEEV | Lab ESE 12 route 128 91190 Gif-sur-Yvette France
+FR-Fon,6,GRP_TEAM,TEAM_MEMBER_NAME,Christophe Francois
+FR-Fon,6,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+FR-Fon,6,GRP_TEAM,TEAM_MEMBER_EMAIL,christophe.francois@cnrs.fr
+FR-Fon,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,CNRS - IDEEV | Lab ESE
+FR-Fon,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,CNRS - IDEEV | Lab ESE 12 route 128 91190 Gif-sur-Yvette France
+FR-Fon,7,GRP_TEAM,TEAM_MEMBER_NAME,Kamel Soudani
+FR-Fon,7,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+FR-Fon,7,GRP_TEAM,TEAM_MEMBER_EMAIL,kamel.soudani@universite-paris-saclay.fr
+FR-Fon,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Universite Paris-Saclay - IDEEV | Lab ESE
+FR-Fon,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Universite Paris-Saclay - IDEEV | Lab ESE 12 route 128 91190 Gif-sur-Yvette France
+FR-Fon,8,GRP_NETWORK,NETWORK,ICOS
+FR-Fon,9,GRP_SITE_DESC,SITE_DESC,"The Fontainebleau-Barbeau station, with ICOS code FR-Fon, is located about 50 km South-East of Paris (France), within the Atlantic Biogeographical Region and it is a deciduous oak forest. The climate is temperate oceanic, well representative of a large North-Western part of Europe. The forest is dominated by Quercus petraea (Matt.) Liebl. and Quercus robur L., with a hornbeam coppice understory established on a gleyic luvisol."
+FR-Fon,10,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+FR-Fon,11,GRP_FUNDING,SITE_FUNDING,"Ministère de l'Enseignement Supérieur, de la Recherche et de l'Innovation - Stratégie nationale des infrastructures de recherche - https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056"
+FR-Fon,12,GRP_LOCATION,LOCATION_LAT,48.476358
+FR-Fon,12,GRP_LOCATION,LOCATION_LONG,2.780096
+FR-Fon,12,GRP_LOCATION,LOCATION_ELEV,103
+FR-Fon,12,GRP_LOCATION,LOCATION_DATE,20170718
+FR-Fon,12,GRP_LOCATION,LOCATION_COMMENT,done with Trimble GPS
+FR-Fon,13,GRP_IGBP,IGBP,DBF
+FR-Fon,13,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+FR-Fon,14,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FR-Fon,14,GRP_LAND_OWNERSHIP,LAND_OWNER,National Forest Office (ONF)
+FR-Fon,15,GRP_UTC_OFFSET,UTC_OFFSET,1
+FR-Fon,15,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,201612151200
+FR-Fon,16,GRP_CLIM_AVG,MAT,11.44
+FR-Fon,16,GRP_CLIM_AVG,MAP,678.99
+FR-Fon,16,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+FR-Fon,17,SITE_CHAR,SURFACE_HOMOGENEITY,310
+FR-Fon,17,SITE_CHAR,WIND_DIRECTION,S
+FR-Fon,17,SITE_CHAR,ASPECT,NW
+FR-Fon,17,SITE_CHAR,TERRAIN,"Medium Slope (>2 %, <5%)"
+FR-Fon,18,GRP_TOWER,TOWER_TYPE,Triangle
+FR-Fon,18,GRP_TOWER,TOWER_POWER,Direct power

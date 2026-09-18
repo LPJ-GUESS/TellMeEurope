@@ -1,0 +1,36 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FR-FBn,1,GRP_HEADER,SITE_NAME,Font-Blanche
+FR-FBn,2,GRP_TEAM,TEAM_MEMBER_NAME,Guillaume Simioni
+FR-FBn,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FR-FBn,2,GRP_TEAM,TEAM_MEMBER_EMAIL,guillaume.simioni@inrae.fr
+FR-FBn,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,National Institute for Agricultural Research (INRA)
+FR-FBn,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,"National Institute for Agricultural Research (INRA) Domaine Saint Paul, Site Agroparc 84914 cedex 9 Avignon France"
+FR-FBn,3,GRP_TEAM,TEAM_MEMBER_NAME,Olivier Marloie
+FR-FBn,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+FR-FBn,3,GRP_TEAM,TEAM_MEMBER_EMAIL,olivier.marloie@inrae.fr
+FR-FBn,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,National Institute for Agricultural Research
+FR-FBn,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,National Institute for Agricultural Research France
+FR-FBn,4,GRP_TEAM,TEAM_MEMBER_NAME,Nicolas Martin - Saint Paul
+FR-FBn,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+FR-FBn,4,GRP_TEAM,TEAM_MEMBER_EMAIL,nicolas.martin@inrae.fr
+FR-FBn,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,National Institute for Agricultural Research and Environment (INRAe)
+FR-FBn,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,National Institute for Agricultural Research and Environment (INRAe) Domaine Saint Paul - 228 route de l'Aérodrome - Site Agroparc - CS 40509 84914 Cedex 9 Avignon France
+FR-FBn,5,GRP_NETWORK,NETWORK,ICOS
+FR-FBn,6,GRP_SITE_DESC,SITE_DESC,"The station Font-Blanche is located in south-east France on a limestone plateau. The site is a mixed Mediterranenan forest, by Pinus halepensis Mill. and Quercus ilex L."
+FR-FBn,9,GRP_LOCATION,LOCATION_LAT,43.24079
+FR-FBn,9,GRP_LOCATION,LOCATION_LONG,5.67865
+FR-FBn,9,GRP_LOCATION,LOCATION_ELEV,436
+FR-FBn,10,GRP_IGBP,IGBP,ENF
+FR-FBn,10,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+FR-FBn,11,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FR-FBn,11,GRP_LAND_OWNERSHIP,LAND_OWNER,Department "Les Bouches du Rhônes"
+FR-FBn,12,GRP_UTC_OFFSET,UTC_OFFSET,1
+FR-FBn,13,GRP_CLIM_AVG,MAT,13.9
+FR-FBn,13,GRP_CLIM_AVG,MAP,700
+FR-FBn,13,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfa
+FR-FBn,14,SITE_CHAR,SURFACE_HOMOGENEITY,350
+FR-FBn,14,SITE_CHAR,WIND_DIRECTION,NW
+FR-FBn,14,SITE_CHAR,ASPECT,SW
+FR-FBn,14,SITE_CHAR,TERRAIN,"Significant Slope (>5%, <10%)"
+FR-FBn,15,GRP_TOWER,TOWER_TYPE,Other
+FR-FBn,15,GRP_TOWER,TOWER_POWER,Direct power

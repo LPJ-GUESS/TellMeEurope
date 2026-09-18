@@ -1,0 +1,41 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+FR-Hes,1,GRP_HEADER,SITE_NAME,Hesse
+FR-Hes,2,GRP_TEAM,TEAM_MEMBER_NAME,Matthias Cuntz
+FR-Hes,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+FR-Hes,2,GRP_TEAM,TEAM_MEMBER_EMAIL,matthias.cuntz@inrae.fr
+FR-Hes,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,INRAE Centre Grand Est - Nancy
+FR-Hes,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,INRAE Centre Grand Est - Nancy Route d'Amance 54280 Champenoux France
+FR-Hes,3,GRP_TEAM,TEAM_MEMBER_NAME,Emilie Joetzjer
+FR-Hes,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+FR-Hes,3,GRP_TEAM,TEAM_MEMBER_EMAIL,emilie.joetzjer@inrae.fr
+FR-Hes,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,INRAE Centre Grand Est - Nancy
+FR-Hes,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,INRAE Centre Grand Est - Nancy Route d'Amance 54280 Champenoux France
+FR-Hes,4,GRP_TEAM,TEAM_MEMBER_NAME,Alwin Naiken
+FR-Hes,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+FR-Hes,4,GRP_TEAM,TEAM_MEMBER_EMAIL,alwin.naiken@inrae.fr
+FR-Hes,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,INRAE Centre Grand Est - Nancy
+FR-Hes,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,INRAE Centre Grand Est - Nancy Route d'Amance 54280 Champenoux France
+FR-Hes,5,GRP_TEAM,TEAM_MEMBER_NAME,Pascal Courtois
+FR-Hes,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+FR-Hes,5,GRP_TEAM,TEAM_MEMBER_EMAIL,pascal.courtois@inrae.fr
+FR-Hes,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,INRAE Centre Grand Est
+FR-Hes,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,INRAE Centre Grand Est Route d'Amance 54280 Champenoux France
+FR-Hes,6,GRP_NETWORK,NETWORK,ICOS
+FR-Hes,7,GRP_SITE_DESC,SITE_DESC,"The Hesse site (ICOS code FR-Hes) is located in the North-East of France, 6 km away from the city of Sarrebourg, in the plain at the feet of the Vosges Mountain. The climate is semi-continental temperate. The ecosystem studied is a state beech forest (56 years old) produced by natural regeneration. The soil type is intermediate between a luvisol and a stagnic luvisol."
+FR-Hes,10,GRP_LOCATION,LOCATION_LAT,48.6741
+FR-Hes,10,GRP_LOCATION,LOCATION_LONG,7.06465
+FR-Hes,10,GRP_LOCATION,LOCATION_ELEV,310
+FR-Hes,11,GRP_IGBP,IGBP,DBF
+FR-Hes,11,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+FR-Hes,12,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+FR-Hes,12,GRP_LAND_OWNERSHIP,LAND_OWNER,ONF (Office National des Forêts)
+FR-Hes,13,GRP_UTC_OFFSET,UTC_OFFSET,1
+FR-Hes,14,GRP_CLIM_AVG,MAT,10
+FR-Hes,14,GRP_CLIM_AVG,MAP,889
+FR-Hes,14,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+FR-Hes,15,SITE_CHAR,SURFACE_HOMOGENEITY,400
+FR-Hes,15,SITE_CHAR,WIND_DIRECTION,SW
+FR-Hes,15,SITE_CHAR,ASPECT,N
+FR-Hes,15,SITE_CHAR,TERRAIN,"Significant Slope (>5%, <10%)"
+FR-Hes,16,GRP_TOWER,TOWER_TYPE,Other
+FR-Hes,16,GRP_TOWER,TOWER_POWER,Direct power

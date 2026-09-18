@@ -1,0 +1,52 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+DK-Sor,1,GRP_HEADER,SITE_NAME,Soroe
+DK-Sor,2,GRP_TEAM,TEAM_MEMBER_NAME,Andreas Ibrom
+DK-Sor,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+DK-Sor,2,GRP_TEAM,TEAM_MEMBER_EMAIL,anib@env.dtu.dk
+DK-Sor,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Technical University of Denmark (DTU)
+DK-Sor,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Technical University of Denmark (DTU) Bygningstorvet 115 2800 Kgs. Lyngby Denmark
+DK-Sor,3,GRP_TEAM,TEAM_MEMBER_NAME,Kim Pilegaard
+DK-Sor,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+DK-Sor,3,GRP_TEAM,TEAM_MEMBER_EMAIL,kipi@env.dtu.dk
+DK-Sor,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Technical University of Denmark (DTU)
+DK-Sor,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Technical University of Denmark (DTU) Bygningstorvet 115 2800 Kgs. Lyngby Denmark
+DK-Sor,4,GRP_TEAM,TEAM_MEMBER_NAME,Erik Lange Rønn
+DK-Sor,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+DK-Sor,4,GRP_TEAM,TEAM_MEMBER_EMAIL,erro@env.dtu.dk
+DK-Sor,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Technical University of Denmark (DTU)
+DK-Sor,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Technical University of Denmark (DTU) Anker Egelundsvej 101 2800 Kgs. Lyngby Denmark
+DK-Sor,5,GRP_TEAM,TEAM_MEMBER_NAME,Annette Vibeke Jensen
+DK-Sor,5,GRP_TEAM,TEAM_MEMBER_ROLE,ADMIN
+DK-Sor,5,GRP_TEAM,TEAM_MEMBER_EMAIL,avul@env.dtu.dk
+DK-Sor,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Technical University of Denmark (DTU)
+DK-Sor,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Technical University of Denmark (DTU) Anker Egelundsvej 101 2800 Kgs. Lyngby Denmark
+DK-Sor,6,GRP_TEAM,TEAM_MEMBER_NAME,Flemming Møller
+DK-Sor,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+DK-Sor,6,GRP_TEAM,TEAM_MEMBER_EMAIL,flmol@env.dtu.dk
+DK-Sor,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Technical University of Denmark (DTU)
+DK-Sor,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,Technical University of Denmark (DTU) Anker Egelundsvej 101 2800 Kgs. Lyngby Denmark
+DK-Sor,7,GRP_TEAM,TEAM_MEMBER_NAME,Jens Schaarup Sørensen
+DK-Sor,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+DK-Sor,7,GRP_TEAM,TEAM_MEMBER_EMAIL,jsso@env.dtu.dk
+DK-Sor,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Technical University of Denmark (DTU)
+DK-Sor,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Technical University of Denmark (DTU) Anker Egelundsvej 101 2800 Kgs. Lyngby Denmark
+DK-Sor,8,GRP_NETWORK,NETWORK,ICOS
+DK-Sor,9,GRP_SITE_DESC,SITE_DESC,"The Sore site (ICOS code DK-Sor) was established in 1996 and it located in the forest Lille Bogeskov on the island of Zealand. The forest is privately owned by the foundation Soroe Akademi. The climate is temperate maritime, it is dominated by westerly winds and frequent passes of frontal systems. The forest is dominated by European beech (Fagus sylvatica L.) and the tree immediately around the station were planted in 1921. The main part of the surrounding forest consists of beech tree of varying age with small scattered stands of Norway spruce (Picea abies (L.) Karst.) as well as single trees of other conifers such as European larch (Larix decidua Mill.). The soils are brown soil classified as either Alfisols or Mollisols, with a 10-40 cm deep organic layer."
+DK-Sor,11,GRP_FUNDING,SITE_FUNDING,Danish Agency for Higher Education and Science - Grant Number 5072-00008B - ICOS/DK - Dansk infrastruktur til måling af drivhusgasser i atmosfæren og deres udveksling med økosystemerne
+DK-Sor,12,GRP_LOCATION,LOCATION_LAT,55.4858694
+DK-Sor,12,GRP_LOCATION,LOCATION_LONG,11.6446444
+DK-Sor,12,GRP_LOCATION,LOCATION_ELEV,55
+DK-Sor,13,GRP_IGBP,IGBP,DBF
+DK-Sor,13,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+DK-Sor,14,GRP_UTC_OFFSET,UTC_OFFSET,1
+DK-Sor,14,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,20181011
+DK-Sor,15,GRP_CLIM_AVG,MAT,9
+DK-Sor,15,GRP_CLIM_AVG,MAP,640
+DK-Sor,15,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,23
+DK-Sor,15,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+DK-Sor,16,SITE_CHAR,SURFACE_HOMOGENEITY,400
+DK-Sor,16,SITE_CHAR,WIND_DIRECTION,W
+DK-Sor,16,SITE_CHAR,ASPECT,WSW
+DK-Sor,16,SITE_CHAR,TERRAIN,Strong Slope (>10%)
+DK-Sor,17,GRP_TOWER,TOWER_TYPE,Triangle
+DK-Sor,17,GRP_TOWER,TOWER_POWER,Direct power

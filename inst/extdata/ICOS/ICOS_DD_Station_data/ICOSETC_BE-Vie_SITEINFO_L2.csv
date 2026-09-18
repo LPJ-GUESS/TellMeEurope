@@ -1,0 +1,82 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+BE-Vie,1,GRP_HEADER,SITE_NAME,Vielsalm
+BE-Vie,2,GRP_TEAM,TEAM_MEMBER_NAME,Caroline Vincke
+BE-Vie,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+BE-Vie,2,GRP_TEAM,TEAM_MEMBER_EMAIL,Caroline.Vincke@uclouvain.be
+BE-Vie,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Catholic University of Louvain-la-Neuve
+BE-Vie,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Catholic University of Louvain-la-Neuve Croix du Sud 2 1348 Louvain-la-Neuve Belgium
+BE-Vie,3,GRP_TEAM,TEAM_MEMBER_NAME,Bernard Heinesch
+BE-Vie,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+BE-Vie,3,GRP_TEAM,TEAM_MEMBER_EMAIL,bernard.heinesch@uliege.be
+BE-Vie,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,4,GRP_TEAM,TEAM_MEMBER_NAME,Tanguy Manise
+BE-Vie,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+BE-Vie,4,GRP_TEAM,TEAM_MEMBER_EMAIL,tanguy.manise@uliege.be
+BE-Vie,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,5,GRP_TEAM,TEAM_MEMBER_NAME,Benjamin Bergmans
+BE-Vie,5,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+BE-Vie,5,GRP_TEAM,TEAM_MEMBER_EMAIL,b.bergmans@issep.be
+BE-Vie,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Scientific Institute of Public Service -  Environmental Monitoring Directorate - Air Quality Cell
+BE-Vie,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Scientific Institute of Public Service -  Environmental Monitoring Directorate - Air Quality Cell Rue du Ch�ra 200 4000 Li�ge Belgium
+BE-Vie,6,GRP_TEAM,TEAM_MEMBER_NAME,Clément Dumont
+BE-Vie,6,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+BE-Vie,6,GRP_TEAM,TEAM_MEMBER_EMAIL,Clement.Dumont@uliege.be
+BE-Vie,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,7,GRP_TEAM,TEAM_MEMBER_NAME,Fabian Lenartz
+BE-Vie,7,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+BE-Vie,7,GRP_TEAM,TEAM_MEMBER_EMAIL,f.lenartz@issep.be
+BE-Vie,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Scientific Institute of Public Service -  Environmental Monitoring Directorate - Air Quality Cell
+BE-Vie,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Scientific Institute of Public Service -  Environmental Monitoring Directorate - Air Quality Cell Rue du Ch�ra 200 4000 Li�ge Belgium
+BE-Vie,8,GRP_TEAM,TEAM_MEMBER_NAME,Gaëtan Bogaerts
+BE-Vie,8,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+BE-Vie,8,GRP_TEAM,TEAM_MEMBER_EMAIL,gaetan.bogaerts@uliege.be
+BE-Vie,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,9,GRP_TEAM,TEAM_MEMBER_NAME,Henri Chopin
+BE-Vie,9,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+BE-Vie,9,GRP_TEAM,TEAM_MEMBER_EMAIL,h.chopin@uliege.be
+BE-Vie,9,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,9,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,10,GRP_TEAM,TEAM_MEMBER_NAME,Jonathan Bitton
+BE-Vie,10,GRP_TEAM,TEAM_MEMBER_ROLE,AFFILIATED
+BE-Vie,10,GRP_TEAM,TEAM_MEMBER_EMAIL,Jonathan.Bitton@uliege.be
+BE-Vie,10,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,10,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,11,GRP_TEAM,TEAM_MEMBER_NAME,Kim Hoang
+BE-Vie,11,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+BE-Vie,11,GRP_TEAM,TEAM_MEMBER_EMAIL,ltk.hoang@uliege.be
+BE-Vie,12,GRP_TEAM,TEAM_MEMBER_NAME,Loïc Demoulin
+BE-Vie,12,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+BE-Vie,12,GRP_TEAM,TEAM_MEMBER_EMAIL,loic.demoulin@uclouvain.be
+BE-Vie,12,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Catholic University of Louvain-la-Neuve
+BE-Vie,12,GRP_TEAM,TEAM_MEMBER_ADDRESS,Catholic University of Louvain-la-Neuve Place de l'Université 1 1348 Louvain-la-Neuve Belgium
+BE-Vie,13,GRP_TEAM,TEAM_MEMBER_NAME,Timothée Clément
+BE-Vie,13,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+BE-Vie,13,GRP_TEAM,TEAM_MEMBER_EMAIL,tclement@uliege.be
+BE-Vie,13,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Gembloux Agro-Bio Tech, University of Liège"
+BE-Vie,13,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Gembloux Agro-Bio Tech, University of Liège Passage des Déportés 2 5030 Gembloux Belgium"
+BE-Vie,14,GRP_NETWORK,NETWORK,ICOS
+BE-Vie,15,GRP_SITE_DESC,SITE_DESC,"The station Vielsalm, with the ICOS code BE-Vie, is located in the province of Luxembourg, in the natural region of Ardenne. The site is a mature broadleaf forest with beech (Fagus Sylvatica L.) and Douglas fire (Pseudotsuga Menziesii (Mirb.) Franco) mainly, other species are also present in the overstory (Picea abies (L.) Karst, Pinus sylvestris L. , Abies alba Mill., Tsuga Heterophylla (Raf.) Sarg, Betula pendula Roth. and Quercus sp.). Thinnings are conducted every 6 years."
+BE-Vie,16,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+BE-Vie,17,GRP_FUNDING,SITE_FUNDING,"Service Public de Wallonie - Agriculture, Ressources Naturelles, Environnement - ICOS-2 : Integrated Carbon Observation System-Research Infrastructure (ICOS-RI)"
+BE-Vie,18,GRP_LOCATION,LOCATION_LAT,50.304962
+BE-Vie,18,GRP_LOCATION,LOCATION_LONG,5.998099
+BE-Vie,18,GRP_LOCATION,LOCATION_ELEV,490
+BE-Vie,18,GRP_LOCATION,LOCATION_COMMENT,HS50 location
+BE-Vie,19,GRP_IGBP,IGBP,MF
+BE-Vie,19,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+BE-Vie,20,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+BE-Vie,20,GRP_LAND_OWNERSHIP,LAND_OWNER,Département de la Nature et des Forêts (DNF)
+BE-Vie,21,GRP_UTC_OFFSET,UTC_OFFSET,1
+BE-Vie,22,GRP_CLIM_AVG,MAT,8.2
+BE-Vie,22,GRP_CLIM_AVG,MAP,915.6
+BE-Vie,22,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+BE-Vie,23,SITE_CHAR,SURFACE_HOMOGENEITY,450
+BE-Vie,23,SITE_CHAR,WIND_DIRECTION,SW
+BE-Vie,23,SITE_CHAR,ASPECT,NW
+BE-Vie,23,SITE_CHAR,TERRAIN,"Significant Slope (>5%, <10%)"
+BE-Vie,24,GRP_TOWER,TOWER_TYPE,Walk-up
+BE-Vie,24,GRP_TOWER,TOWER_POWER,Direct power

@@ -1,0 +1,43 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+BE-Lcr,1,GRP_HEADER,SITE_NAME,Lochristi
+BE-Lcr,2,GRP_TEAM,TEAM_MEMBER_NAME,Tim De Meulder
+BE-Lcr,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+BE-Lcr,2,GRP_TEAM,TEAM_MEMBER_EMAIL,tim.demeulder@uantwerpen.be
+BE-Lcr,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Belgium
+BE-Lcr,3,GRP_TEAM,TEAM_MEMBER_NAME,Marilyn Roland
+BE-Lcr,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+BE-Lcr,3,GRP_TEAM,TEAM_MEMBER_EMAIL,marilyn.roland@uantwerpen.be
+BE-Lcr,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Lcr,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteitsplein 1 2610 Wilrijk Belgium
+BE-Lcr,4,GRP_TEAM,TEAM_MEMBER_NAME,Jan Segers
+BE-Lcr,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+BE-Lcr,4,GRP_TEAM,TEAM_MEMBER_EMAIL,jan.segers@uantwerpen.be
+BE-Lcr,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Lcr,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteisplein 1 2610 Wilrijk Belgium
+BE-Lcr,5,GRP_TEAM,TEAM_MEMBER_NAME,Jasper Van Look
+BE-Lcr,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-FLX
+BE-Lcr,5,GRP_TEAM,TEAM_MEMBER_EMAIL,jasper.vanlook@uantwerpen.be
+BE-Lcr,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Lcr,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteitsplein 1 2610 Wilrijk Belgium
+BE-Lcr,6,GRP_TEAM,TEAM_MEMBER_NAME,Lodewijk Lefevre
+BE-Lcr,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+BE-Lcr,6,GRP_TEAM,TEAM_MEMBER_EMAIL,lodewijk.lefevre@uantwerpen.be
+BE-Lcr,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,Belgium
+BE-Lcr,7,GRP_NETWORK,NETWORK,ICOS
+BE-Lcr,8,GRP_SITE_DESC,SITE_DESC,"The station Lochristi (ICOS code BE-Lcr) is located in Lochristi, Belgium, about 11 km from the city of Ghent (Province East of Flanders). The site is a short-rotation coppice plantation of poplar (Populus spp.) with flat topography. The region is pedologically described as a sandy region. The current total area of the plantation is 11 ha and the tree density is 8000 trees ha-1 . Twelve selected poplar genotypes were planted in monoclonal blocks in 2010."
+BE-Lcr,11,GRP_LOCATION,LOCATION_LAT,51.11218
+BE-Lcr,11,GRP_LOCATION,LOCATION_LONG,3.85043
+BE-Lcr,11,GRP_LOCATION,LOCATION_ELEV,6.25
+BE-Lcr,12,GRP_IGBP,IGBP,DBF
+BE-Lcr,13,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Private
+BE-Lcr,13,GRP_LAND_OWNERSHIP,LAND_OWNER,Group Mouton
+BE-Lcr,14,GRP_UTC_OFFSET,UTC_OFFSET,1
+BE-Lcr,15,GRP_CLIM_AVG,MAT,10.6
+BE-Lcr,15,GRP_CLIM_AVG,MAP,861.3
+BE-Lcr,15,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+BE-Lcr,16,SITE_CHAR,SURFACE_HOMOGENEITY,200
+BE-Lcr,16,SITE_CHAR,WIND_DIRECTION,SSE
+BE-Lcr,16,SITE_CHAR,ASPECT,S
+BE-Lcr,16,SITE_CHAR,TERRAIN,Gentle slope (<2 %)
+BE-Lcr,17,GRP_TOWER,TOWER_TYPE,Other
+BE-Lcr,17,GRP_TOWER,TOWER_POWER,Direct power

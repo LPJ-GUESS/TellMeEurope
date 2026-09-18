@@ -1,0 +1,53 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+BE-Bra,1,GRP_HEADER,SITE_NAME,Brasschaat
+BE-Bra,2,GRP_TEAM,TEAM_MEMBER_NAME,Ivan Janssens
+BE-Bra,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+BE-Bra,2,GRP_TEAM,TEAM_MEMBER_EMAIL,Ivan.Janssens@uantwerpen.be
+BE-Bra,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Bra,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteitsplein 1 2610 Wilrijk Belgium
+BE-Bra,3,GRP_TEAM,TEAM_MEMBER_NAME,Marilyn Roland
+BE-Bra,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+BE-Bra,3,GRP_TEAM,TEAM_MEMBER_EMAIL,marilyn.roland@uantwerpen.be
+BE-Bra,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Bra,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteitsplein 1 2610 Wilrijk Belgium
+BE-Bra,4,GRP_TEAM,TEAM_MEMBER_NAME,Arne Vande Sompele
+BE-Bra,4,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+BE-Bra,4,GRP_TEAM,TEAM_MEMBER_EMAIL,arne.vandesompele@uantwerpen.be
+BE-Bra,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Bra,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp 
+BE-Bra,5,GRP_TEAM,TEAM_MEMBER_NAME,Jan Segers
+BE-Bra,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-FLX
+BE-Bra,5,GRP_TEAM,TEAM_MEMBER_EMAIL,jan.segers@uantwerpen.be
+BE-Bra,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Bra,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteitsplein 1 2610 Wilrijk Belgium
+BE-Bra,6,GRP_TEAM,TEAM_MEMBER_NAME,Mahum Naseer
+BE-Bra,6,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+BE-Bra,6,GRP_TEAM,TEAM_MEMBER_EMAIL,mahum.naseer@uantwerpen.be
+BE-Bra,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Bra,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp 
+BE-Bra,7,GRP_TEAM,TEAM_MEMBER_NAME,Seppe Bresseleers
+BE-Bra,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+BE-Bra,7,GRP_TEAM,TEAM_MEMBER_EMAIL,seppe.bresseleers@uantwerpen.be
+BE-Bra,8,GRP_TEAM,TEAM_MEMBER_NAME,Tim De Meulder
+BE-Bra,8,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+BE-Bra,8,GRP_TEAM,TEAM_MEMBER_EMAIL,tim.demeulder@uantwerpen.be
+BE-Bra,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,University of Antwerp
+BE-Bra,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,University of Antwerp Universiteitsplein 1 2610 Wilrijk Belgium
+BE-Bra,9,GRP_NETWORK,NETWORK,ICOS
+BE-Bra,10,GRP_SITE_DESC,SITE_DESC,"The station Brasschaat (ICOS code BE-Bra) is an experimental forest located 20 Km northeast of Antwerp in the Belgian Campine region. The region has a temperate maritime climate. The study site consists of a 2 ha, even-aged Scots pine stand (Pinus sylvestris L.) situated within a 150 ha mixed coniferous/deciduous forest dominated by Scots pine. The forest surrounding the site consists of several broadleaf species, some native, such as Betula pendula Roth., Sorbus aucuparia L., Quercus robur L. and some – for this region – alien species such as Quercus rubra L. and Castanea sativa Mill. The soil has been classified as Albic Hypoluvic Arenosol, it is covered with an organic surface layer of 6 cm depth."
+BE-Bra,11,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+BE-Bra,13,GRP_LOCATION,LOCATION_LAT,51.30761
+BE-Bra,13,GRP_LOCATION,LOCATION_LONG,4.51984
+BE-Bra,13,GRP_LOCATION,LOCATION_ELEV,16
+BE-Bra,14,GRP_IGBP,IGBP,ENF
+BE-Bra,14,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+BE-Bra,15,GRP_UTC_OFFSET,UTC_OFFSET,1
+BE-Bra,16,GRP_CLIM_AVG,MAT,10.5
+BE-Bra,16,GRP_CLIM_AVG,MAP,920.7
+BE-Bra,16,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+BE-Bra,17,SITE_CHAR,SURFACE_HOMOGENEITY,240
+BE-Bra,17,SITE_CHAR,WIND_DIRECTION,SW
+BE-Bra,17,SITE_CHAR,ASPECT,ESE
+BE-Bra,17,SITE_CHAR,TERRAIN,Strong Slope (>10%)
+BE-Bra,18,GRP_TOWER,TOWER_TYPE,Other
+BE-Bra,18,GRP_TOWER,TOWER_POWER,Direct power

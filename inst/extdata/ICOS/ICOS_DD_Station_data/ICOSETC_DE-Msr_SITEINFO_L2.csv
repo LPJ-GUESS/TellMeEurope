@@ -1,0 +1,47 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+DE-Msr,1,GRP_HEADER,SITE_NAME,Mooseurach
+DE-Msr,2,GRP_TEAM,TEAM_MEMBER_NAME,Matthias Drösler
+DE-Msr,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+DE-Msr,2,GRP_TEAM,TEAM_MEMBER_EMAIL,matthias.droesler@hswt.de
+DE-Msr,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,HSWT
+DE-Msr,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,HSWT Am Hofgarten 1 85354 Freising Germany
+DE-Msr,3,GRP_TEAM,TEAM_MEMBER_NAME,Janina Klatt
+DE-Msr,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+DE-Msr,3,GRP_TEAM,TEAM_MEMBER_EMAIL,janina.klatt@hswt.de
+DE-Msr,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Weihenstephan-Triesdorf University of Applied Sciences (HSWT)
+DE-Msr,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Weihenstephan-Triesdorf University of Applied Sciences (HSWT) Am Hofgarten 1 85354 Freising Germany
+DE-Msr,4,GRP_TEAM,TEAM_MEMBER_NAME,Heta Meyer
+DE-Msr,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+DE-Msr,4,GRP_TEAM,TEAM_MEMBER_EMAIL,heta.meyer@hswt.de
+DE-Msr,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Weihenstephan-Triesdorf University of Applied Sciences (HSWT)
+DE-Msr,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Weihenstephan-Triesdorf University of Applied Sciences (HSWT) Am Hofgarten 1 85354 Freising Germany
+DE-Msr,5,GRP_TEAM,TEAM_MEMBER_NAME,Jörg Eberl
+DE-Msr,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+DE-Msr,5,GRP_TEAM,TEAM_MEMBER_EMAIL,joerg.eberl@hswt.de
+DE-Msr,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,HSWT
+DE-Msr,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,HSWT Am Hofgarten 1 85354 Freising Germany
+DE-Msr,6,GRP_TEAM,TEAM_MEMBER_NAME,Simone Mann
+DE-Msr,6,GRP_TEAM,TEAM_MEMBER_ROLE,ADMIN
+DE-Msr,6,GRP_TEAM,TEAM_MEMBER_EMAIL,simone.mann@hswt.de
+DE-Msr,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,HSWT
+DE-Msr,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,HSWT Am Hofgarten 1 85354 Freising Germany
+DE-Msr,7,GRP_NETWORK,NETWORK,ICOS
+DE-Msr,8,GRP_SITE_DESC,SITE_DESC,"The station Mooseurach (ICOS code DE-Msr) is a forested bog located about 37 km South of Munich, in the region of Bavaria, Germany. The site is part of a large bog complex (250 ha) that was drained at the beginning of the 20th century, and the research area was afforested in 1967. The site is currently dominated by downy birch (Betula pubescens Ehrh.), alder buckthorn (Frangula alnus Mill.), and Norway spruce (Picea abies L. Karst). The site is situated in a region where the climate transitions from oceanic to continental. Locally, the climate is influenced by the Starnberg Lake, which is located about 10 kilometers west of Mooserauch: air masses that move across the lake become more humid."
+DE-Msr,11,GRP_LOCATION,LOCATION_LAT,47.809181
+DE-Msr,11,GRP_LOCATION,LOCATION_LONG,11.456168
+DE-Msr,11,GRP_LOCATION,LOCATION_ELEV,602.07
+DE-Msr,11,GRP_LOCATION,LOCATION_DATE,20220405
+DE-Msr,11,GRP_LOCATION,LOCATION_COMMENT,We erected a second smaller tower in fall 2016. Cyclone Niklas (March/April 2015) has largely destroyed the forest. Remaining trees were harvested in winter 2015/2016
+DE-Msr,12,GRP_IGBP,IGBP,ENF
+DE-Msr,12,GRP_IGBP,IGBP_DATE_START,2020
+DE-Msr,13,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Private
+DE-Msr,13,GRP_LAND_OWNERSHIP,LAND_OWNER,Christoph Bosch
+DE-Msr,14,GRP_UTC_OFFSET,UTC_OFFSET,1
+DE-Msr,14,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,20161001
+DE-Msr,15,GRP_CLIM_AVG,MAT,8.5
+DE-Msr,15,GRP_CLIM_AVG,MAP,1383
+DE-Msr,15,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfb
+DE-Msr,16,SITE_CHAR,ASPECT,E
+DE-Msr,16,SITE_CHAR,TERRAIN,"Gentle Slope (>0.5%, <2%)"
+DE-Msr,17,GRP_TOWER,TOWER_TYPE,Triangle
+DE-Msr,17,GRP_TOWER,TOWER_POWER,Direct power

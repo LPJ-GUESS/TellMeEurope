@@ -1,0 +1,57 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+DE-RuW,1,GRP_HEADER,SITE_NAME,Wustebach
+DE-RuW,2,GRP_TEAM,TEAM_MEMBER_NAME,Marius Schmidt
+DE-RuW,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+DE-RuW,2,GRP_TEAM,TEAM_MEMBER_EMAIL,ma.schmidt@fz-juelich.de
+DE-RuW,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Research Centre Juelich
+DE-RuW,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Research Centre Juelich Wilhelm-Johnen-Strasse 52425 Juelich Germany
+DE-RuW,3,GRP_TEAM,TEAM_MEMBER_NAME,Alexander Graf
+DE-RuW,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+DE-RuW,3,GRP_TEAM,TEAM_MEMBER_EMAIL,a.graf@fz-juelich.de
+DE-RuW,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Research Centre Juelich
+DE-RuW,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Research Centre Juelich Wilhelm-Johnen-Straße 52425 Juelich Germany
+DE-RuW,4,GRP_TEAM,TEAM_MEMBER_NAME,Daniel Dolfus
+DE-RuW,4,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+DE-RuW,4,GRP_TEAM,TEAM_MEMBER_EMAIL,d.dolfus@fz-juelich.de
+DE-RuW,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Research Centre Juelich
+DE-RuW,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Research Centre Juelich Wilhelm-Johnen-Straße 52425 Juelich Germany
+DE-RuW,5,GRP_TEAM,TEAM_MEMBER_NAME,Nils Becker
+DE-RuW,5,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+DE-RuW,5,GRP_TEAM,TEAM_MEMBER_EMAIL,ni.becker@fz-juelich.de
+DE-RuW,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Research Centre Juelich
+DE-RuW,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Research Centre Juelich Wilhelm-Johnen-Straße 52425 Juelich Germany
+DE-RuW,6,GRP_TEAM,TEAM_MEMBER_NAME,Shirin Bagheri
+DE-RuW,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+DE-RuW,6,GRP_TEAM,TEAM_MEMBER_EMAIL,s.bagheri@fz-juelich.de
+DE-RuW,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Research Centre Juelich, IBG-3: Agrosphere"
+DE-RuW,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Research Centre Juelich, IBG-3: Agrosphere Wilhelm-Johnen-Straße 52428 Juelich Germany"
+DE-RuW,7,GRP_TEAM,TEAM_MEMBER_NAME,Sirgit Kummer
+DE-RuW,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+DE-RuW,7,GRP_TEAM,TEAM_MEMBER_EMAIL,s.kummer@fz-juelich.de
+DE-RuW,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Research Centre Juelich, IBG3: Agrosphere"
+DE-RuW,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Research Centre Juelich, IBG3: Agrosphere Wilhelm-Johnen-Straße 52428 Juelich Germany"
+DE-RuW,8,GRP_NETWORK,NETWORK,ICOS
+DE-RuW,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,CO2
+DE-RuW,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_METHOD,Eddy Covariance
+DE-RuW,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_OPERATIONS,Continuous operation
+DE-RuW,9,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_DATE_START,201006240000
+DE-RuW,10,GRP_FLUX_MEASUREMENTS,FLUX_MEASUREMENTS_VARIABLE,H2O
+DE-RuW,11,GRP_SITE_DESC,SITE_DESC,"The Wustebach study site is located in the German low mountain range within the borders of the Eifel National Park near the German-Belgian border. The site covers the area (38.5 ha) of the small catchment of the Wustebach, with altitudes ranging from 595 to 628 m a.s.l.. It represents the typical, but not natural, spruce forest vegetation type of the region with Norway Spruce (Picea abies L.) as prevailing tree species. Tree density is about 370 trees/ha and tree height 25 m on average. Only a sparse understory exists with the grasses like Deschampsia flexuosa, Deschampsia cespitosa and Molinia caerulea and the ericaceous dwarf shrubs Vaccinium myrtillis. Small areas along the Wustebach stream and in the deforested area in the north-east were covered with meadow, interspersed by woody pioneer plants (see section management). The slope within the catchment area is 3.6% on average. Its soils are dominated by Cambisols and Planosols on hill slopes and Gleysols and Histosols in the riparian zone. The main soil texture is silty clay loam with sandstone inclusions. The geological subsurface is built up by fractioned Devonian shales with occasional sandstone inclusions, covered by a periglacial solifluction layer of about 1-2 m thickness. In the valley Gleysols and Histosols (half-bogs) have formed under the influence of groundwater, while hillslopes are dominated by Cambisols and Planosols. In order to monitor the matter and energy balance changes associated with the partial clear-felling of 2013, a wide range of continuous logging sensors were installed in the catchment, starting from 2008. The measurement infrastructure now comprises among others several weather stations, a flume, weighable lysimeters, sap flow sensors, cosmic-ray soil moisture sensors, and a wireless soil sensor network. From the beginning of the tower measurements on the tower was co-maintained by the University of Trier and the IBG-3 Institute of the Forschungszentrum Julich."
+DE-RuW,12,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,"Carbon, water and energy cicle. Transition from Spruce forest monoculture to broadleave forstest."
+DE-RuW,14,GRP_LOCATION,LOCATION_LAT,50.5049268531233
+DE-RuW,14,GRP_LOCATION,LOCATION_LONG,6.33096247542595
+DE-RuW,14,GRP_LOCATION,LOCATION_ELEV,610
+DE-RuW,15,GRP_IGBP,IGBP,ENF
+DE-RuW,15,GRP_IGBP,IGBP_DATE_START,201006240000
+DE-RuW,15,GRP_IGBP,IGBP_COMMENT,Norway Spruce Forest
+DE-RuW,16,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+DE-RuW,16,GRP_LAND_OWNERSHIP,LAND_OWNER,Eifel National Park Administration NRW
+DE-RuW,17,GRP_UTC_OFFSET,UTC_OFFSET,1
+DE-RuW,17,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,201006240000
+DE-RuW,18,GRP_CLIM_AVG,MAT,7.5
+DE-RuW,18,GRP_CLIM_AVG,MAP,1250
+DE-RuW,18,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+DE-RuW,19,SITE_CHAR,SURFACE_HOMOGENEITY,300
+DE-RuW,19,SITE_CHAR,WIND_DIRECTION,SW
+DE-RuW,19,SITE_CHAR,ASPECT,E
+DE-RuW,19,SITE_CHAR,TERRAIN,"Medium Slope (>2 %, <5%)"

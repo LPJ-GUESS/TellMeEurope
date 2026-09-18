@@ -1,0 +1,50 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+DE-Tha,1,GRP_HEADER,SITE_NAME,Tharandt
+DE-Tha,2,GRP_TEAM,TEAM_MEMBER_NAME,Matthias Mauder
+DE-Tha,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+DE-Tha,2,GRP_TEAM,TEAM_MEMBER_EMAIL,matthias.mauder@tu-dresden.de
+DE-Tha,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden
+DE-Tha,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden Pienner Str. 23 1737 Tharandt Germany
+DE-Tha,3,GRP_TEAM,TEAM_MEMBER_NAME,Christian Bernhofer
+DE-Tha,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+DE-Tha,3,GRP_TEAM,TEAM_MEMBER_EMAIL,christian.bernhofer@tu-dresden.de
+DE-Tha,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden - Intitute of Hydrology and Meteorology
+DE-Tha,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden - Intitute of Hydrology and Meteorology Pienner Str. 23 01737 Tharandt Germany
+DE-Tha,4,GRP_TEAM,TEAM_MEMBER_NAME,Thomas Gruenwald
+DE-Tha,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+DE-Tha,4,GRP_TEAM,TEAM_MEMBER_EMAIL,thomas.gruenwald@tu-dresden.de
+DE-Tha,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden - Intitute of Hydrology and Meteorology
+DE-Tha,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden - Intitute of Hydrology and Meteorology Pienner Str. 23 01737 Tharandt Germany
+DE-Tha,5,GRP_TEAM,TEAM_MEMBER_NAME,Heiko Prasse
+DE-Tha,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+DE-Tha,5,GRP_TEAM,TEAM_MEMBER_EMAIL,heiko.prasse@tu-dresden.de
+DE-Tha,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden
+DE-Tha,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden Pienner Str. 23 01737 Tharandt Germany
+DE-Tha,6,GRP_TEAM,TEAM_MEMBER_NAME,Markus Hehn
+DE-Tha,6,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+DE-Tha,6,GRP_TEAM,TEAM_MEMBER_EMAIL,markus.hehn@tu-dresden.de
+DE-Tha,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden
+DE-Tha,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden Pienner Str. 23 01737 Tharandt Germany
+DE-Tha,7,GRP_NETWORK,NETWORK,ICOS
+DE-Tha,8,GRP_SITE_DESC,SITE_DESC,"The station Tharandt, with ICOS code DE-Tha, is located in the Eastern part of a large forested area, near the city of Tharandt, about 25 Km SW of Dresden. The site is an evergreen needleleaf forest located in the suboceanic/subcontinental climate. The present species are composed of 87% coniferous evergreen (72% Picea abies (L.) H.Karst., 15% Pinus sylvestris L.) and 13% deciduous (10% Larix decidua Mill., 1% Betula spec., 2% others)."
+DE-Tha,9,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+DE-Tha,10,GRP_FUNDING,SITE_FUNDING,Freistaat Sachsen - Grant Number 65-0456/57/29 - Sicherstellung des Treibhausgasmonitorings an sächsischen ICOS-Standorten
+DE-Tha,11,GRP_LOCATION,LOCATION_LAT,50.962597
+DE-Tha,11,GRP_LOCATION,LOCATION_LONG,13.565333
+DE-Tha,11,GRP_LOCATION,LOCATION_ELEV,388
+DE-Tha,11,GRP_LOCATION,LOCATION_DATE,20251201
+DE-Tha,12,GRP_IGBP,IGBP,ENF
+DE-Tha,12,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+DE-Tha,13,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+DE-Tha,13,GRP_LAND_OWNERSHIP,LAND_OWNER,Staatsbetrieb Sachsenforst
+DE-Tha,14,GRP_UTC_OFFSET,UTC_OFFSET,1
+DE-Tha,15,GRP_CLIM_AVG,MAT,8.1
+DE-Tha,15,GRP_CLIM_AVG,MAP,829
+DE-Tha,15,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,68
+DE-Tha,15,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+DE-Tha,16,SITE_CHAR,SURFACE_HOMOGENEITY,385
+DE-Tha,16,SITE_CHAR,WIND_DIRECTION,W
+DE-Tha,16,SITE_CHAR,ASPECT,W
+DE-Tha,16,SITE_CHAR,TERRAIN,"Medium Slope (>2 %, <5%)"
+DE-Tha,17,GRP_TOWER,TOWER_TYPE,Walk-up
+DE-Tha,17,GRP_TOWER,TOWER_POWER,Direct power

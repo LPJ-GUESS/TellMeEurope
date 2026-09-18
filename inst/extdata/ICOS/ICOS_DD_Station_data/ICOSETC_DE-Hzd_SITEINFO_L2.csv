@@ -1,0 +1,52 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+DE-Hzd,1,GRP_HEADER,SITE_NAME,Hetzdorf
+DE-Hzd,2,GRP_TEAM,TEAM_MEMBER_NAME,Matthias Mauder
+DE-Hzd,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+DE-Hzd,2,GRP_TEAM,TEAM_MEMBER_EMAIL,matthias.mauder@tu-dresden.de
+DE-Hzd,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden
+DE-Hzd,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden Pienner Str. 23 1737 Tharandt Germany
+DE-Hzd,3,GRP_TEAM,TEAM_MEMBER_NAME,Christian Bernhofer
+DE-Hzd,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+DE-Hzd,3,GRP_TEAM,TEAM_MEMBER_EMAIL,christian.bernhofer@tu-dresden.de
+DE-Hzd,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden - Intitute of Hydrology and Meteorology
+DE-Hzd,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden - Intitute of Hydrology and Meteorology Pienner Str. 23 01737 Tharandt Germany
+DE-Hzd,4,GRP_TEAM,TEAM_MEMBER_NAME,Thomas Gruenwald
+DE-Hzd,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+DE-Hzd,4,GRP_TEAM,TEAM_MEMBER_EMAIL,thomas.gruenwald@tu-dresden.de
+DE-Hzd,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden - Intitute of Hydrology and Meteorology
+DE-Hzd,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden - Intitute of Hydrology and Meteorology Pienner Str. 23 01737 Tharandt Germany
+DE-Hzd,5,GRP_TEAM,TEAM_MEMBER_NAME,Heiko Prasse
+DE-Hzd,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+DE-Hzd,5,GRP_TEAM,TEAM_MEMBER_EMAIL,heiko.prasse@tu-dresden.de
+DE-Hzd,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,TU Dresden
+DE-Hzd,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,TU Dresden Pienner Str. 23 01737 Tharandt Germany
+DE-Hzd,6,GRP_TEAM,TEAM_MEMBER_NAME,Markus Hehn
+DE-Hzd,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+DE-Hzd,6,GRP_TEAM,TEAM_MEMBER_EMAIL,markus.hehn@tu-dresden.de
+DE-Hzd,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"TU Dresden - Institut für Hydrologie und Meteorologie, Chair of Meteorology"
+DE-Hzd,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,"TU Dresden - Institut für Hydrologie und Meteorologie, Chair of Meteorology Pienner Str. 23 01737 Tharandt Germany"
+DE-Hzd,7,GRP_TEAM,TEAM_MEMBER_NAME,Uta Moderow
+DE-Hzd,7,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+DE-Hzd,7,GRP_TEAM,TEAM_MEMBER_EMAIL,uta.moderow@tu-dresden.de
+DE-Hzd,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"TU Dresden - Institut für Hydrologie und Meteorologie, Chair of Meteorology"
+DE-Hzd,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,"TU Dresden - Institut für Hydrologie und Meteorologie, Chair of Meteorology Pienner Str. 23 01737 Tharandt Germany"
+DE-Hzd,8,GRP_NETWORK,NETWORK,ICOS
+DE-Hzd,9,GRP_SITE_DESC,SITE_DESC,The site Hetzdorf (ICOS code DE-Hzd) has been established at a 40 ha windthrow area caused by the Kyrill storm in 2007 within a large forested area (60 km?) near the city of Tharandt. After the disturbance oaks have been planted. The site is located in the suboceanic/subcontinental climate.
+DE-Hzd,12,GRP_LOCATION,LOCATION_LAT,50.96381
+DE-Hzd,12,GRP_LOCATION,LOCATION_LONG,13.48978
+DE-Hzd,12,GRP_LOCATION,LOCATION_ELEV,395
+DE-Hzd,13,GRP_IGBP,IGBP,DBF
+DE-Hzd,14,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+DE-Hzd,14,GRP_LAND_OWNERSHIP,LAND_OWNER,Staatsbetrieb Sachsenforst
+DE-Hzd,15,GRP_UTC_OFFSET,UTC_OFFSET,1
+DE-Hzd,16,GRP_CLIM_AVG,MAT,7.6
+DE-Hzd,16,GRP_CLIM_AVG,MAP,877
+DE-Hzd,16,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfb
+DE-Hzd,17,SITE_CHAR,ASPECT,NW
+DE-Hzd,17,SITE_CHAR,TERRAIN,Strong Slope (>10%)
+DE-Hzd,18,GRP_TOWER,TOWER_TYPE,Walk-up
+DE-Hzd,18,GRP_TOWER,TOWER_POWER,Solar panels
+DE-Hzd,19,GRP_TOWER,TOWER_TYPE,Walk-up
+DE-Hzd,19,GRP_TOWER,TOWER_POWER,Solar panels
+DE-Hzd,20,GRP_TOWER,TOWER_TYPE,Walk-up
+DE-Hzd,20,GRP_TOWER,TOWER_POWER,Solar panels

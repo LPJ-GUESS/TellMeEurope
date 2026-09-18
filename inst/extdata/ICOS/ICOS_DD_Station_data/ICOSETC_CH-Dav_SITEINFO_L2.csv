@@ -1,0 +1,131 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+CH-Dav,1,GRP_HEADER,SITE_NAME,Davos
+CH-Dav,2,GRP_TEAM,TEAM_MEMBER_NAME,Iris Feigenwinter
+CH-Dav,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+CH-Dav,2,GRP_TEAM,TEAM_MEMBER_EMAIL,iris.feigenwinter@usys.ethz.ch
+CH-Dav,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,ETH Zurich
+CH-Dav,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,ETH Zurich Universitaetstrasse 2 8092 Zurich Switzerland
+CH-Dav,3,GRP_TEAM,TEAM_MEMBER_NAME,Roman Zweifel
+CH-Dav,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+CH-Dav,3,GRP_TEAM,TEAM_MEMBER_EMAIL,roman.zweifel@wsl.ch
+CH-Dav,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zuercherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,4,GRP_TEAM,TEAM_MEMBER_NAME,Sophia Etzold
+CH-Dav,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+CH-Dav,4,GRP_TEAM,TEAM_MEMBER_EMAIL,sophia.etzold@wsl.ch
+CH-Dav,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zuercherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,5,GRP_TEAM,TEAM_MEMBER_NAME,Anne Thimonier Rickenmann
+CH-Dav,5,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+CH-Dav,5,GRP_TEAM,TEAM_MEMBER_EMAIL,anne.thimonier@wsl.ch
+CH-Dav,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zürcherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,6,GRP_TEAM,TEAM_MEMBER_NAME,Arthur Gessler
+CH-Dav,6,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+CH-Dav,6,GRP_TEAM,TEAM_MEMBER_EMAIL,arthur.gessler@wsl.ch
+CH-Dav,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zürcherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,7,GRP_TEAM,TEAM_MEMBER_NAME,Christian Hug
+CH-Dav,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+CH-Dav,7,GRP_TEAM,TEAM_MEMBER_EMAIL,christian.hug@wsl.ch
+CH-Dav,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zürcherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,8,GRP_TEAM,TEAM_MEMBER_NAME,Christoph Hüglin
+CH-Dav,8,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+CH-Dav,8,GRP_TEAM,TEAM_MEMBER_EMAIL,christoph.hueglin@empa.ch
+CH-Dav,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Empa Dübendorf
+CH-Dav,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,Empa Dübendorf Überlandstrasse 129 8600 Dübendorf Switzerland
+CH-Dav,9,GRP_TEAM,TEAM_MEMBER_NAME,Dominik Hummel
+CH-Dav,9,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+CH-Dav,9,GRP_TEAM,TEAM_MEMBER_EMAIL,dominik.hummel@wsl.ch
+CH-Dav,9,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,9,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf 
+CH-Dav,10,GRP_TEAM,TEAM_MEMBER_NAME,Flurin Sutter
+CH-Dav,10,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+CH-Dav,10,GRP_TEAM,TEAM_MEMBER_EMAIL,flurin.sutter@wsl.ch
+CH-Dav,10,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,10,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zürcherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,11,GRP_TEAM,TEAM_MEMBER_NAME,Joachim Zhu
+CH-Dav,11,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+CH-Dav,11,GRP_TEAM,TEAM_MEMBER_EMAIL,joachim.zhu@wsl.ch
+CH-Dav,11,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,11,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf 
+CH-Dav,12,GRP_TEAM,TEAM_MEMBER_NAME,Kathi Liechti
+CH-Dav,12,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+CH-Dav,12,GRP_TEAM,TEAM_MEMBER_EMAIL,kaethi.liechti@wsl.ch
+CH-Dav,12,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,12,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zuercherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,13,GRP_TEAM,TEAM_MEMBER_NAME,Lukas Hortnagl
+CH-Dav,13,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+CH-Dav,13,GRP_TEAM,TEAM_MEMBER_EMAIL,lukas.hoertnagl@usys.ethz.ch
+CH-Dav,13,GRP_TEAM,TEAM_MEMBER_INSTITUTION,ETH Zurich
+CH-Dav,13,GRP_TEAM,TEAM_MEMBER_ADDRESS,ETH Zurich Universitaetstrasse 2 8092 Zurich Switzerland
+CH-Dav,14,GRP_TEAM,TEAM_MEMBER_NAME,Micah Wilhelm
+CH-Dav,14,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+CH-Dav,14,GRP_TEAM,TEAM_MEMBER_EMAIL,micah.wilhelm@wsl.ch
+CH-Dav,14,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,14,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf 
+CH-Dav,15,GRP_TEAM,TEAM_MEMBER_NAME,Nina Buchmann
+CH-Dav,15,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+CH-Dav,15,GRP_TEAM,TEAM_MEMBER_EMAIL,nina.buchmann@usys.ethz.ch
+CH-Dav,15,GRP_TEAM,TEAM_MEMBER_INSTITUTION,ETH Zurich
+CH-Dav,15,GRP_TEAM,TEAM_MEMBER_ADDRESS,ETH Zurich Universitaetstrasse 2 8092 Zurich Switzerland
+CH-Dav,16,GRP_TEAM,TEAM_MEMBER_NAME,Peter Waldner
+CH-Dav,16,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+CH-Dav,16,GRP_TEAM,TEAM_MEMBER_EMAIL,peter.waldner@wsl.ch
+CH-Dav,16,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,16,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zürcherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,17,GRP_TEAM,TEAM_MEMBER_NAME,Philip Meier
+CH-Dav,17,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-FLX
+CH-Dav,17,GRP_TEAM,TEAM_MEMBER_EMAIL,philip.meier@usys.ethz.ch
+CH-Dav,17,GRP_TEAM,TEAM_MEMBER_INSTITUTION,ETH Zurich
+CH-Dav,17,GRP_TEAM,TEAM_MEMBER_ADDRESS,ETH Zurich Universitaetstrasse 2 8092 Zurich Switzerland
+CH-Dav,18,GRP_TEAM,TEAM_MEMBER_NAME,Stephan Zimmermann
+CH-Dav,18,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+CH-Dav,18,GRP_TEAM,TEAM_MEMBER_EMAIL,Stephan.zimmermann@wsl.ch
+CH-Dav,18,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,18,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zurcherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,19,GRP_TEAM,TEAM_MEMBER_NAME,Susanne Burri
+CH-Dav,19,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+CH-Dav,19,GRP_TEAM,TEAM_MEMBER_EMAIL,susanne.burri@usys.ethz.ch
+CH-Dav,19,GRP_TEAM,TEAM_MEMBER_INSTITUTION,ETH Zurich
+CH-Dav,19,GRP_TEAM,TEAM_MEMBER_ADDRESS,ETH Zurich Universitaetstrasse 2 8092 Zurich Switzerland
+CH-Dav,20,GRP_TEAM,TEAM_MEMBER_NAME,Tanja Stutz
+CH-Dav,20,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+CH-Dav,20,GRP_TEAM,TEAM_MEMBER_EMAIL,tanja.stutz@wsl.ch
+CH-Dav,20,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,20,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zuercherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,21,GRP_TEAM,TEAM_MEMBER_NAME,Thomas Baur
+CH-Dav,21,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+CH-Dav,21,GRP_TEAM,TEAM_MEMBER_EMAIL,thomas.baur@usys.ethz.ch
+CH-Dav,21,GRP_TEAM,TEAM_MEMBER_INSTITUTION,ETH Zurich
+CH-Dav,21,GRP_TEAM,TEAM_MEMBER_ADDRESS,ETH Zurich Universitätstrasse 2 8092 Zurich Switzerland
+CH-Dav,22,GRP_TEAM,TEAM_MEMBER_NAME,Volodymyr Trotsiuk
+CH-Dav,22,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+CH-Dav,22,GRP_TEAM,TEAM_MEMBER_EMAIL,volodymyr.trotsiuk@wsl.ch
+CH-Dav,22,GRP_TEAM,TEAM_MEMBER_INSTITUTION,WSL Birmensdorf
+CH-Dav,22,GRP_TEAM,TEAM_MEMBER_ADDRESS,WSL Birmensdorf Zuercherstrasse 111 8903 Birmensdorf Switzerland
+CH-Dav,23,GRP_NETWORK,NETWORK,ICOS
+CH-Dav,24,GRP_SITE_DESC,SITE_DESC,"The station Davos, with ICOS code CH-Dav, is located in the eastern part of the Swiss Alps, in the canton of Graubunden. The site is an evergreen needleleaf forest in a sub-alpine ecosystem dominated by Norway spruce (Picea abies (L.) Karst.). Trees in the footprint of the station are on average 17.5 m high, while the tallest trees reach 41 m. The average tree age is 119 years, the oldest tree is estimated to be 350 years old. Leaf area index of the forest is about 4 m2 m-2. The understorey vegetation is rather patchy, covering roughly 30% of the forest floor, and is mainly composed of dwarf shrubs, primarily Vaccinium myrtillus L. as well as mosses."
+CH-Dav,25,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+CH-Dav,26,GRP_FUNDING,SITE_FUNDING,ETH Zurich
+CH-Dav,27,GRP_LOCATION,LOCATION_LAT,46.81533
+CH-Dav,27,GRP_LOCATION,LOCATION_LONG,9.85591
+CH-Dav,27,GRP_LOCATION,LOCATION_ELEV,1637
+CH-Dav,27,GRP_LOCATION,LOCATION_DATE,201705040951
+CH-Dav,27,GRP_LOCATION,LOCATION_COMMENT,sub-alpine
+CH-Dav,28,GRP_IGBP,IGBP,ENF
+CH-Dav,28,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+CH-Dav,29,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Private
+CH-Dav,29,GRP_LAND_OWNERSHIP,LAND_OWNER,Multiple owners
+CH-Dav,30,GRP_UTC_OFFSET,UTC_OFFSET,1
+CH-Dav,31,GRP_CLIM_AVG,MAT,4.3
+CH-Dav,31,GRP_CLIM_AVG,MAP,876
+CH-Dav,31,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,270
+CH-Dav,31,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+CH-Dav,32,SITE_CHAR,SURFACE_HOMOGENEITY,320
+CH-Dav,32,SITE_CHAR,WIND_DIRECTION,NNE
+CH-Dav,32,SITE_CHAR,ASPECT,NE
+CH-Dav,32,SITE_CHAR,TERRAIN,Strong Slope (>10%)
+CH-Dav,33,GRP_TOWER,TOWER_TYPE,Walk-up
+CH-Dav,33,GRP_TOWER,TOWER_POWER,Direct power

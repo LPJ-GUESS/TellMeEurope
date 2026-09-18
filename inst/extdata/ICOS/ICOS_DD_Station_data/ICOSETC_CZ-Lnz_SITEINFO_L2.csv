@@ -1,0 +1,78 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+CZ-Lnz,1,GRP_HEADER,SITE_NAME,Lanzhot
+CZ-Lnz,2,GRP_TEAM,TEAM_MEMBER_NAME,Natalia Kowalska
+CZ-Lnz,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+CZ-Lnz,2,GRP_TEAM,TEAM_MEMBER_EMAIL,kowalska.n@czechglobe.cz
+CZ-Lnz,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Centre Academy of Sciences
+CZ-Lnz,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Centre Academy of Sciences Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,3,GRP_TEAM,TEAM_MEMBER_NAME,Marian Pavelka
+CZ-Lnz,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+CZ-Lnz,3,GRP_TEAM,TEAM_MEMBER_EMAIL,pavelka.m@czechglobe.cz
+CZ-Lnz,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,4,GRP_TEAM,TEAM_MEMBER_NAME,Eva Darenová
+CZ-Lnz,4,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+CZ-Lnz,4,GRP_TEAM,TEAM_MEMBER_EMAIL,darenova.e@czechglobe.cz
+CZ-Lnz,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,5,GRP_TEAM,TEAM_MEMBER_NAME,Georg Jocher
+CZ-Lnz,5,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+CZ-Lnz,5,GRP_TEAM,TEAM_MEMBER_EMAIL,georg.jocher@thuenen.de
+CZ-Lnz,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,6,GRP_TEAM,TEAM_MEMBER_NAME,Jan Krejza
+CZ-Lnz,6,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+CZ-Lnz,6,GRP_TEAM,TEAM_MEMBER_EMAIL,krejza.j@czechglobe.cz
+CZ-Lnz,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,7,GRP_TEAM,TEAM_MEMBER_NAME,Jan Trusina
+CZ-Lnz,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-FLX
+CZ-Lnz,7,GRP_TEAM,TEAM_MEMBER_EMAIL,trusina.j@czechglobe.cz
+CZ-Lnz,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,8,GRP_TEAM,TEAM_MEMBER_NAME,Karel Staník
+CZ-Lnz,8,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-FLX
+CZ-Lnz,8,GRP_TEAM,TEAM_MEMBER_EMAIL,stanik.k@czechglobe.cz
+CZ-Lnz,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,9,GRP_TEAM,TEAM_MEMBER_NAME,Ladislav Šigut
+CZ-Lnz,9,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+CZ-Lnz,9,GRP_TEAM,TEAM_MEMBER_EMAIL,sigut.l@czechglobe.cz
+CZ-Lnz,9,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,9,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,10,GRP_TEAM,TEAM_MEMBER_NAME,Manuel Acosta
+CZ-Lnz,10,GRP_TEAM,TEAM_MEMBER_ROLE,ADMIN
+CZ-Lnz,10,GRP_TEAM,TEAM_MEMBER_EMAIL,acosta.m@czechglobe.cz
+CZ-Lnz,10,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,10,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,11,GRP_TEAM,TEAM_MEMBER_NAME,Milan Fischer
+CZ-Lnz,11,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+CZ-Lnz,11,GRP_TEAM,TEAM_MEMBER_EMAIL,fischer.milan@gmail.com
+CZ-Lnz,11,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,11,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,12,GRP_TEAM,TEAM_MEMBER_NAME,Ondrej Nezval
+CZ-Lnz,12,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-ANC
+CZ-Lnz,12,GRP_TEAM,TEAM_MEMBER_EMAIL,nezval.o@czechglobe.cz
+CZ-Lnz,12,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Global Change Research Institute CAS
+CZ-Lnz,12,GRP_TEAM,TEAM_MEMBER_ADDRESS,Global Change Research Institute CAS Belidla 986/4a 60300 Brno Czech Republic
+CZ-Lnz,13,GRP_TEAM,TEAM_MEMBER_NAME,Radek Czerný
+CZ-Lnz,13,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+CZ-Lnz,13,GRP_TEAM,TEAM_MEMBER_EMAIL,czerny.r@czechglobe.cz
+CZ-Lnz,14,GRP_NETWORK,NETWORK,ICOS
+CZ-Lnz,15,GRP_SITE_DESC,SITE_DESC,"Ecosystem station Lanzhot (ICOS code CZ-Lnz) is located in the south eastern part of the Czech Republic, closed to the confluence of rivers Thaya and Morava. Study site is a Panonian hard-wood floodplain forest with semi-natural tree species composition characterized by rich biodiversity. The stand is situated in a flat area."
+CZ-Lnz,17,GRP_FUNDING,SITE_FUNDING,"Ministry of Education, Youth and Sports of the Czech Republic - Grant Number LM2023048 - CzeCOS - http://www.czecos.cz/en.html"
+CZ-Lnz,18,GRP_LOCATION,LOCATION_LAT,48.6815483
+CZ-Lnz,18,GRP_LOCATION,LOCATION_LONG,16.9463317
+CZ-Lnz,18,GRP_LOCATION,LOCATION_ELEV,182
+CZ-Lnz,19,GRP_IGBP,IGBP,DBF
+CZ-Lnz,19,GRP_IGBP,IGBP_DATE_START,2015
+CZ-Lnz,20,GRP_UTC_OFFSET,UTC_OFFSET,1
+CZ-Lnz,21,GRP_CLIM_AVG,MAT,9.804
+CZ-Lnz,21,GRP_CLIM_AVG,MAP,518.031
+CZ-Lnz,21,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,28
+CZ-Lnz,21,GRP_CLIM_AVG,CLIMATE_KOEPPEN,BSk
+CZ-Lnz,22,SITE_CHAR,SURFACE_HOMOGENEITY,375
+CZ-Lnz,22,SITE_CHAR,WIND_DIRECTION,ESE
+CZ-Lnz,22,SITE_CHAR,ASPECT,WNW
+CZ-Lnz,22,SITE_CHAR,TERRAIN,"Medium Slope (>2%, <5%)"
+CZ-Lnz,23,GRP_TOWER,TOWER_TYPE,Walk-up

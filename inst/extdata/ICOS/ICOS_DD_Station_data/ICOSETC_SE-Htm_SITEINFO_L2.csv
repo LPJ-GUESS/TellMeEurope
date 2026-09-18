@@ -1,0 +1,58 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+SE-Htm,1,GRP_HEADER,SITE_NAME,Hyltemossa
+SE-Htm,2,GRP_TEAM,TEAM_MEMBER_NAME,Michal Heliasz
+SE-Htm,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+SE-Htm,2,GRP_TEAM,TEAM_MEMBER_EMAIL,michal.heliasz@mgeo.lu.se
+SE-Htm,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Htm,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Htm,3,GRP_TEAM,TEAM_MEMBER_NAME,Natascha Kljun
+SE-Htm,3,GRP_TEAM,TEAM_MEMBER_ROLE,CO-PI
+SE-Htm,3,GRP_TEAM,TEAM_MEMBER_EMAIL,natascha.kljun@mgeo.lu.se
+SE-Htm,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Htm,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Htm,4,GRP_TEAM,TEAM_MEMBER_NAME,Tobias Biermann
+SE-Htm,4,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+SE-Htm,4,GRP_TEAM,TEAM_MEMBER_EMAIL,tobias.biermann@mgeo.lu.se
+SE-Htm,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Htm,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Htm,5,GRP_TEAM,TEAM_MEMBER_NAME,Jutta Holst
+SE-Htm,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+SE-Htm,5,GRP_TEAM,TEAM_MEMBER_EMAIL,jutta.holst@mgeo.lu.se
+SE-Htm,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Htm,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Htm,6,GRP_TEAM,TEAM_MEMBER_NAME,Meelis M�lder
+SE-Htm,6,GRP_TEAM,TEAM_MEMBER_ROLE,SCI-FLX
+SE-Htm,6,GRP_TEAM,TEAM_MEMBER_EMAIL,meelis.molder@mgeo.lu.se
+SE-Htm,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Htm,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Htm,7,GRP_TEAM,TEAM_MEMBER_NAME,Peter Kornacher
+SE-Htm,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+SE-Htm,7,GRP_TEAM,TEAM_MEMBER_EMAIL,peter.kornacher@nateko.lu.se
+SE-Htm,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Dept. of Physical Geography and Ecosystem Science
+SE-Htm,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Dept. of Physical Geography and Ecosystem Science Sölvegatan 12 22362 Lund Sweden
+SE-Htm,8,GRP_TEAM,TEAM_MEMBER_NAME,Thomas Holst
+SE-Htm,8,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+SE-Htm,8,GRP_TEAM,TEAM_MEMBER_EMAIL,thomas.holst@mgeo.lu.se
+SE-Htm,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Htm,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Htm,9,GRP_NETWORK,NETWORK,ICOS
+SE-Htm,10,GRP_SITE_DESC,SITE_DESC,"The station Hyltemossa, with ICOS code SE-Htm, is located in southern Sweden. The site is a evergreen needleleaf managed forest located in a temperate, maritime climate. The forest in the target area composed of two stands, 29 and 34 years old, and dominated by Picea abies (L.) H.Karst (Norway spruce) with a small fraction of Betula spp. (birch) and single occurrence of Pinus sylvestris L. (Scots pine). Understory vegetation is sparse. The forest floor is mainly covered by moss."
+SE-Htm,11,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+SE-Htm,12,GRP_FUNDING,SITE_FUNDING,Swedish Research Council - Grant Number 2023-00172 - National Research Infrastructure ICOS Sweden - www.icos-sweden.se
+SE-Htm,13,GRP_LOCATION,LOCATION_LAT,56.09763
+SE-Htm,13,GRP_LOCATION,LOCATION_LONG,13.41897
+SE-Htm,13,GRP_LOCATION,LOCATION_ELEV,115
+SE-Htm,14,GRP_IGBP,IGBP,ENF
+SE-Htm,14,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+SE-Htm,15,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Private
+SE-Htm,15,GRP_LAND_OWNERSHIP,LAND_OWNER,Gustafsborg Säteri AB
+SE-Htm,16,GRP_UTC_OFFSET,UTC_OFFSET,1
+SE-Htm,17,GRP_CLIM_AVG,MAT,7.4
+SE-Htm,17,GRP_CLIM_AVG,MAP,707
+SE-Htm,17,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfb
+SE-Htm,18,SITE_CHAR,SURFACE_HOMOGENEITY,450
+SE-Htm,18,SITE_CHAR,WIND_DIRECTION,W
+SE-Htm,18,SITE_CHAR,ASPECT,W
+SE-Htm,18,SITE_CHAR,TERRAIN,"Medium Slope (>2 %, <5%)"
+SE-Htm,19,GRP_TOWER,TOWER_TYPE,Triangle
+SE-Htm,19,GRP_TOWER,TOWER_POWER,Direct power

@@ -1,0 +1,57 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+NL-Loo,1,GRP_HEADER,SITE_NAME,Loobos
+NL-Loo,2,GRP_TEAM,TEAM_MEMBER_NAME,Michiel van der Molen
+NL-Loo,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+NL-Loo,2,GRP_TEAM,TEAM_MEMBER_EMAIL,michiel.vandermolen@wur.nl
+NL-Loo,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Wageningen University
+NL-Loo,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Wageningen University Droevendaalsesteeg 3 6708PB Wageningen The Netherlands
+NL-Loo,3,GRP_TEAM,TEAM_MEMBER_NAME,Bart Kruijt
+NL-Loo,3,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+NL-Loo,3,GRP_TEAM,TEAM_MEMBER_EMAIL,bart.kruijt@wur.nl
+NL-Loo,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Wageningen University
+NL-Loo,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Wageningen University Droevendaalsesteeg 3 6708 PB Wageningen The Netherlands
+NL-Loo,4,GRP_TEAM,TEAM_MEMBER_NAME,Henk Snellen
+NL-Loo,4,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+NL-Loo,4,GRP_TEAM,TEAM_MEMBER_EMAIL,henk.snellen@wur.nl
+NL-Loo,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Wageningen University
+NL-Loo,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Wageningen University Droevendaalsesteeg 3 6708PB Wageningen The Netherlands
+NL-Loo,5,GRP_TEAM,TEAM_MEMBER_NAME,Hong Zhao
+NL-Loo,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+NL-Loo,5,GRP_TEAM,TEAM_MEMBER_EMAIL,hong.zhao@wur.nl
+NL-Loo,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,"Wageningen University, Meteorology and Air Quality group"
+NL-Loo,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,"Wageningen University, Meteorology and Air Quality group "
+NL-Loo,6,GRP_TEAM,TEAM_MEMBER_NAME,Ron Lootens
+NL-Loo,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+NL-Loo,6,GRP_TEAM,TEAM_MEMBER_EMAIL,rn.lootens@vu.nl
+NL-Loo,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,VU University Amsterdam
+NL-Loo,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,VU University Amsterdam De Boelelaan 1085 1081HV Amsterdam The Netherlands
+NL-Loo,7,GRP_TEAM,TEAM_MEMBER_NAME,Sjoerd Barten
+NL-Loo,7,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+NL-Loo,7,GRP_TEAM,TEAM_MEMBER_EMAIL,sjoerd.barten@wur.nl
+NL-Loo,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Wageningen University
+NL-Loo,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Wageningen University Droevendaalsesteeg 3 6708 PB Wageningen The Netherlands
+NL-Loo,8,GRP_NETWORK,NETWORK,ICOS
+NL-Loo,9,GRP_SITE_DESC,SITE_DESC,"The Loobos site (ICOS code NL-Loo) is located near Kootwijk, on the Veluwe. The forest was planted around the year 1909 on sand dunes to fight sandstorms and also for the wood to serve in the mines in Limburg (Southern NL). The forest has been growing since then and was exposed to very little management. In all directions the forest extends for more than 1.5 km."
+NL-Loo,11,GRP_FUNDING,SITE_FUNDING,Netherlands Organisation for Scientific Research (NWO) - Grant Number National Roadmap for Large-Scale Research Facilities - Ruisdael Observatory for Atmospheric Research - https://onderzoeksfaciliteiten.nl/www.ruisdael-observatory.nl
+NL-Loo,12,GRP_LOCATION,LOCATION_LAT,52.16644722
+NL-Loo,12,GRP_LOCATION,LOCATION_LONG,5.74355
+NL-Loo,12,GRP_LOCATION,LOCATION_ELEV,33
+NL-Loo,12,GRP_LOCATION,LOCATION_DATE,20210315
+NL-Loo,12,GRP_LOCATION,LOCATION_COMMENT,"Coordinates of the new tower. Old tower = (52.166553, 5.743589)"
+NL-Loo,13,GRP_IGBP,IGBP,ENF
+NL-Loo,13,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+NL-Loo,14,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+NL-Loo,14,GRP_LAND_OWNERSHIP,LAND_OWNER,Staatsbosbeheer (National Forest Service)
+NL-Loo,15,GRP_UTC_OFFSET,UTC_OFFSET,1
+NL-Loo,15,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,202107271430
+NL-Loo,15,GRP_UTC_OFFSET,UTC_OFFSET_COMMENT,First installation of EC system in the new Loobos tower
+NL-Loo,16,GRP_CLIM_AVG,MAT,10.2
+NL-Loo,16,GRP_CLIM_AVG,MAP,900
+NL-Loo,16,GRP_CLIM_AVG,SITE_SNOW_COVER_DAYS,21.5
+NL-Loo,16,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Cfb
+NL-Loo,17,SITE_CHAR,SURFACE_HOMOGENEITY,1000
+NL-Loo,17,SITE_CHAR,WIND_DIRECTION,WSW
+NL-Loo,17,SITE_CHAR,ASPECT,N
+NL-Loo,17,SITE_CHAR,TERRAIN,"Significant Slope (>5%, <10%)"
+NL-Loo,18,GRP_TOWER,TOWER_TYPE,Walk-up
+NL-Loo,18,GRP_TOWER,TOWER_POWER,Direct power

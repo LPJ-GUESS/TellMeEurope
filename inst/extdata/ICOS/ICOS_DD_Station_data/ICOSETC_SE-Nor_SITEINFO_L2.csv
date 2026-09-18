@@ -1,0 +1,51 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+SE-Nor,1,GRP_HEADER,SITE_NAME,Norunda
+SE-Nor,2,GRP_TEAM,TEAM_MEMBER_NAME,Natascha Kljun
+SE-Nor,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+SE-Nor,2,GRP_TEAM,TEAM_MEMBER_EMAIL,natascha.kljun@mgeo.lu.se
+SE-Nor,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Nor,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Nor,3,GRP_TEAM,TEAM_MEMBER_NAME,Irene Lehner
+SE-Nor,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+SE-Nor,3,GRP_TEAM,TEAM_MEMBER_EMAIL,irene.lehner@mgeo.lu.se
+SE-Nor,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Nor,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund S
+SE-Nor,4,GRP_TEAM,TEAM_MEMBER_NAME,Gunnar Bergström
+SE-Nor,4,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+SE-Nor,4,GRP_TEAM,TEAM_MEMBER_EMAIL,gunnar.bergstrom@mgeo.lu.se
+SE-Nor,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Nor,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Sölvegatan 12 22362 Lund S
+SE-Nor,5,GRP_TEAM,TEAM_MEMBER_NAME,Jutta Holst
+SE-Nor,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+SE-Nor,5,GRP_TEAM,TEAM_MEMBER_EMAIL,jutta.holst@mgeo.lu.se
+SE-Nor,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Nor,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Sölvegatan 12 22362 Lund S
+SE-Nor,6,GRP_TEAM,TEAM_MEMBER_NAME,Meelis Mölder
+SE-Nor,6,GRP_TEAM,TEAM_MEMBER_ROLE,SCI
+SE-Nor,6,GRP_TEAM,TEAM_MEMBER_EMAIL,meelis.molder@mgeo.lu.se
+SE-Nor,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Nor,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Sölvegatan 12 22362 Lund S
+SE-Nor,7,GRP_NETWORK,NETWORK,ICOS
+SE-Nor,8,GRP_SITE_DESC,SITE_DESC,"The Norunda research station, with ICOS code SE-Nor, is located in the southern part of the boreal forest zone (the nearest town is Uppsala, about 25 km to the South). The area is flat with small-scale variations in altitude and the site is dominated by Norway spruce and Scots pine with a small fraction of birch trees, and the shrub layer is dominated by blueberry, cranberry, moss, and flowers. The soils are sandy-loamy tills with high content of stones and blocks."
+SE-Nor,9,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+SE-Nor,10,GRP_FUNDING,SITE_FUNDING,Swedish Research Council - Grant Number 2023-00172 - National Research Infrastructure ICOS Sweden - www.icos-sweden.se
+SE-Nor,11,GRP_LOCATION,LOCATION_LAT,60.08649722
+SE-Nor,11,GRP_LOCATION,LOCATION_LONG,17.47950278
+SE-Nor,11,GRP_LOCATION,LOCATION_ELEV,58
+SE-Nor,11,GRP_LOCATION,LOCATION_COMMENT,southern corner of the main tower
+SE-Nor,12,GRP_IGBP,IGBP,ENF
+SE-Nor,12,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+SE-Nor,13,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Private
+SE-Nor,13,GRP_LAND_OWNERSHIP,LAND_OWNER,The Norunda forest is owned and managed by the common of the Norunda jurisdictional district (Norunda Härad).
+SE-Nor,14,GRP_UTC_OFFSET,UTC_OFFSET,1
+SE-Nor,14,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,20140101
+SE-Nor,15,GRP_CLIM_AVG,MAT,6.5
+SE-Nor,15,GRP_CLIM_AVG,MAP,586
+SE-Nor,15,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfb
+SE-Nor,16,SITE_CHAR,SURFACE_HOMOGENEITY,300
+SE-Nor,16,SITE_CHAR,WIND_DIRECTION,WSW
+SE-Nor,16,SITE_CHAR,ASPECT,NNW
+SE-Nor,16,SITE_CHAR,TERRAIN,Strong Slope (>10%)
+SE-Nor,17,GRP_TOWER,TOWER_TYPE,Triangle
+SE-Nor,17,GRP_TOWER,TOWER_POWER,Direct power
+SE-Nor,18,GRP_TOWER,TOWER_POWER,Direct power

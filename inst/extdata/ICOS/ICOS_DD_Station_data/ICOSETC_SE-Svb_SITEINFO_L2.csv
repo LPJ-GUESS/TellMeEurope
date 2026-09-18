@@ -1,0 +1,66 @@
+SITE_ID,GROUP_ID,VARIABLE_GROUP,VARIABLE,DATAVALUE
+SE-Svb,1,GRP_HEADER,SITE_NAME,Svartberget
+SE-Svb,2,GRP_TEAM,TEAM_MEMBER_NAME,Matthias Peichl
+SE-Svb,2,GRP_TEAM,TEAM_MEMBER_ROLE,PI
+SE-Svb,2,GRP_TEAM,TEAM_MEMBER_EMAIL,matthias.peichl@slu.se
+SE-Svb,2,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research
+SE-Svb,2,GRP_TEAM,TEAM_MEMBER_ADDRESS,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research SLU 90183 Umeå Sweden
+SE-Svb,3,GRP_TEAM,TEAM_MEMBER_NAME,Fabio Boschetti
+SE-Svb,3,GRP_TEAM,TEAM_MEMBER_ROLE,MANAGER
+SE-Svb,3,GRP_TEAM,TEAM_MEMBER_EMAIL,fabio.boschetti@slu.se
+SE-Svb,3,GRP_TEAM,TEAM_MEMBER_INSTITUTION,SLU
+SE-Svb,3,GRP_TEAM,TEAM_MEMBER_ADDRESS,SLU Vindeln Sweden
+SE-Svb,4,GRP_TEAM,TEAM_MEMBER_NAME,Eric Larmanou
+SE-Svb,4,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+SE-Svb,4,GRP_TEAM,TEAM_MEMBER_EMAIL,eric.larmanou@slu.se
+SE-Svb,4,GRP_TEAM,TEAM_MEMBER_INSTITUTION,SLU
+SE-Svb,4,GRP_TEAM,TEAM_MEMBER_ADDRESS,SLU Svartbergets fältstation 92291 Vindeln Sweden
+SE-Svb,5,GRP_TEAM,TEAM_MEMBER_NAME,Jutta Holst
+SE-Svb,5,GRP_TEAM,TEAM_MEMBER_ROLE,DATA
+SE-Svb,5,GRP_TEAM,TEAM_MEMBER_EMAIL,jutta.holst@mgeo.lu.se
+SE-Svb,5,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Lund University - Department of Earth and Environmental Sciences
+SE-Svb,5,GRP_TEAM,TEAM_MEMBER_ADDRESS,Lund University - Department of Earth and Environmental Sciences Solvegatan 12 22362 Lund Sweden
+SE-Svb,6,GRP_TEAM,TEAM_MEMBER_NAME,Nataliia Kozii
+SE-Svb,6,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+SE-Svb,6,GRP_TEAM,TEAM_MEMBER_EMAIL,nataliia.kozii@slu.se
+SE-Svb,6,GRP_TEAM,TEAM_MEMBER_INSTITUTION,SLU
+SE-Svb,6,GRP_TEAM,TEAM_MEMBER_ADDRESS,SLU 92291 Vindeln Sweden
+SE-Svb,7,GRP_TEAM,TEAM_MEMBER_NAME,Per Marklund
+SE-Svb,7,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+SE-Svb,7,GRP_TEAM,TEAM_MEMBER_EMAIL,per.marklund@slu.se
+SE-Svb,7,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research
+SE-Svb,7,GRP_TEAM,TEAM_MEMBER_ADDRESS,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research Svartberget Field Station 92291 Vindeln Sweden
+SE-Svb,8,GRP_TEAM,TEAM_MEMBER_NAME,Pernilla Löfvenius
+SE-Svb,8,GRP_TEAM,TEAM_MEMBER_ROLE,TEC-ANC
+SE-Svb,8,GRP_TEAM,TEAM_MEMBER_EMAIL,pernilla.lofvenius@slu.se
+SE-Svb,8,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research
+SE-Svb,8,GRP_TEAM,TEAM_MEMBER_ADDRESS,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research Svartberget Field Station 92291 Vindeln Sweden
+SE-Svb,9,GRP_TEAM,TEAM_MEMBER_NAME,Rowan Dignam
+SE-Svb,9,GRP_TEAM,TEAM_MEMBER_ROLE,TEC
+SE-Svb,9,GRP_TEAM,TEAM_MEMBER_EMAIL,rowan.dignam@slu.se
+SE-Svb,9,GRP_TEAM,TEAM_MEMBER_INSTITUTION,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research
+SE-Svb,9,GRP_TEAM,TEAM_MEMBER_ADDRESS,Swedish University of Agricultural Sciences (SLU) - Unit for field-based forest research Svartberget Field Station 92291 Vindeln Sweden
+SE-Svb,10,GRP_NETWORK,NETWORK,ICOS
+SE-Svb,11,GRP_SITE_DESC,SITE_DESC,"The station Svartberget, with ICOS code SE-Svb, is located about 70 km west of the Gulf of Bothnia, NW of the city Umea. The site in a northern Sweden boreal forest in a landscape characterized by the ridges, valleys and lakes stretching from northwest to southeast, and the station is located within the Svartberget Experimental forest, about 1520 hectare forest land with forest research activities since 1909."
+SE-Svb,12,GRP_RESEARCH_TOPIC,RESEARCH_TOPIC,Research Infrastructure
+SE-Svb,13,GRP_FUNDING,SITE_FUNDING,Swedish Research Council - Grant Number 2023-00172 - National Research Infrastructure ICOS Sweden - www.icos-sweden.se
+SE-Svb,14,GRP_LOCATION,LOCATION_LAT,64.25611
+SE-Svb,14,GRP_LOCATION,LOCATION_LONG,19.7745
+SE-Svb,14,GRP_LOCATION,LOCATION_ELEV,267
+SE-Svb,14,GRP_LOCATION,LOCATION_DATE,20160422
+SE-Svb,14,GRP_LOCATION,LOCATION_COMMENT,Centre of mast
+SE-Svb,15,GRP_IGBP,IGBP,ENF
+SE-Svb,15,GRP_IGBP,IGBP_COMMENT,IGBP class defined on the basis of the detailed vegetation analysis in the 20 SP-I locations
+SE-Svb,16,GRP_LAND_OWNERSHIP,LAND_OWNERSHIP,Public
+SE-Svb,16,GRP_LAND_OWNERSHIP,LAND_OWNER,Sveaskog
+SE-Svb,17,GRP_UTC_OFFSET,UTC_OFFSET,1
+SE-Svb,17,GRP_UTC_OFFSET,UTC_OFFSET_DATE_START,20170613
+SE-Svb,18,GRP_CLIM_AVG,MAT,1.8
+SE-Svb,18,GRP_CLIM_AVG,MAP,614
+SE-Svb,18,GRP_CLIM_AVG,CLIMATE_KOEPPEN,Dfc
+SE-Svb,19,SITE_CHAR,SURFACE_HOMOGENEITY,800
+SE-Svb,19,SITE_CHAR,WIND_DIRECTION,NW
+SE-Svb,19,SITE_CHAR,ASPECT,SW
+SE-Svb,19,SITE_CHAR,TERRAIN,Flat
+SE-Svb,20,GRP_TOWER,TOWER_TYPE,Triangle
+SE-Svb,20,GRP_TOWER,TOWER_POWER,Direct power

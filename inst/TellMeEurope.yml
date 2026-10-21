@@ -13,14 +13,11 @@ Directory:
 
 Switches:
   do_plots: T
-  do_forest_fraction: F
   do_agpp: F
   do_cmass: F
-  do_harvest: F
   do_stem_density: F
   do_qdbh: F
   do_woody_growth: F
-  do_cpool: F
   do_Regrowth: F
   do_SIMFIRE: T
   do_BLAZE: F

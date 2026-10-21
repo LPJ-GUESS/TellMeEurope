@@ -84,6 +84,29 @@ plot_combined <- FALSE
 ```
 ***
 
+# Regrowth {.tabset}
+
+## Standard Regrowth 
+```{r regrowth, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+if (do_Regrowth){
+  # Define which benchmark to do
+benchmark_name <- "REGROWTH"
+
+# Process your dataset
+Datasets <- list()
+
+# Build your current benchmark from input YAML file  
+this_benchmark <- createBenchmark(benchmark_name, input, Datasets = Datasets, spatial.extent)
+
+# Process simulations and order together with dataset, the lists returned are needed in later functions.
+field_lists <- DGVMBenchmarks::getAllFields(this_benchmark,all_simulation_Sources_list)
+all_sim_full <- field_lists[[1]]
+all_sim_full$`LPJ-GUESS v4.1`@data$Total <- all_sim_full$`LPJ-GUESS v4.1`@data$Total * 0.78 ## AGB conversion
+Regrowth(all_sim_full=all_sim_full)
+
+}
+```
+
 # Fire {.tabset}
 
 ## Burnt Area 

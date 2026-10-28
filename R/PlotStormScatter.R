@@ -11,7 +11,7 @@
 #'
 #' @examples
 #' @author Karl Piltz (karl.piltz@@nateko.lu.se), Fredrik Lagergren (fredrik.lagergren@@nateko.lu.se)
-plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots = do_plots, anno.hjust = 0, anno.vjust = 0, LC = NULL){
+plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots = do_plots, anno.hjust = 0, anno.vjust = 0, LC = NULL, WDPP = NULL, start = 1950){
   # Define paths
   areapath <- file.path(system.file("extdata", "Storm", "GridcellFractionsEMEP", package = "DGVMBenchmarks"))
   
@@ -46,12 +46,14 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
   
   # Reading wind damage probability data
   # Load the data
+ if (!is.null(WDPP)){
   input_dir <- file.path(system.file("extdata", "Storm", package = "DGVMBenchmarks"))
   wind_dist_file <- file.path(input_dir, "wdp_05deg_from01deg_colinear.txt")
   wdplist <- fread(wind_dist_file, sep = "\t", header = TRUE)
   
   # Adjust coordinates (shift from center to SW corner)
   wdplist[, `:=`(Lon = Lon - 0.25, Lat = Lat - 0.25)]
+ }
   iteration_tables <- list()
   for(this_sim in all_sim_full){
     
@@ -70,11 +72,19 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
                              by = .(Lon, Lat)]
     
     
-    stormWDP <- merge(storm_means,wdplist, by = c("Lon", "Lat"), all = F)
+    if (!is.null(WDPP)){
+      stormWDP <- merge(storm_means,wdplist, by = c("Lon", "Lat"), all = F)
     
     final_merge <- merge(stormWDP, lulist_2010, by = c("Lon", "Lat"), all = F)
     # Create the uncalibrated damage map
     final_merge$damagemap_uncall <- final_merge$DamWoodC_mean * final_merge$WDP
+    } 
+    else {
+      
+      final_merge <- merge(storm_means, lulist_2010, by = c("Lon", "Lat"), all = F)
+      # Create the uncalibrated damage map
+      final_merge$damagemap_uncall <- final_merge$DamWoodC_mean
+    }
     
     # Calibration
     # Define conversion factors
@@ -112,7 +122,9 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
       country_data[, Area := calc_cell_area(Lat) * Fraction / 25]
       
       # Calculate total damage using direct column operations
-      country_data[, totdam := DamWoodC_mean * cmtovol * 35 * WDP * Area * FOREST]
+     if (!is.null(WDPP)){ country_data[, totdam := DamWoodC_mean * cmtovol * 35 * WDP * Area * FOREST] 
+     }
+      else {country_data[, totdam := DamWoodC_mean * cmtovol * 35 * Area * FOREST]}
       
       # Summarize results
       mod_totdam <- sum(country_data$totdam, na.rm = TRUE)
@@ -121,19 +133,45 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
       results[i, `:=`(mod_totdam_uncall = mod_totdam, forestarea = forest_area)]
     }
     
-    # Define the data
+    # DFDEpath <- file.path(system.file("extdata", "Storm", "annual_SDI_Patacca_etal_22_GCB.xlsx", package = "DGVMBenchmarks"))
+    # DFDE <-  read_excel(DFDEpath,sheet = 2)
+    # DFDE <- DFDE %>% dplyr::filter(country %in% c('Spain','France','Belgium','Netherlands','Switzerland','Sweden','Czechia','Germany','Poland','Finland')) %>%
+    #   dplyr::filter(disturbance_driver == 'Wind') %>%
+    #   dplyr::filter(Year >= 2011) %>%
+    #   group_by(country) %>%
+    #   mutate(DFDE1986_2019 = sum(SDI_expert_gapfilled)) %>%
+    #   ungroup() %>%
+    #   dplyr::select(country,DFDE1986_2019)
+    # 
+    # DFDE1986_2019 <- distinct(DFDE)
+    
+    if (start == 2011){
     DFDE1986_2019 <- c(
-      0.311712469,  # Spain
-      15.92983022,  # France
-      8.624930994,  # Belgium
+      0,  # Spain
+      0.0123,  # France
+      0.0101,  # Belgium
+      0,   # Netherlands
+      1.92,  # Switzerland
+      1.05,  # Sweden
+      10.4 ,  # Czech Republic
+      2.23,  # Germany
+      3.81,  # Poland
+      0.668    # Finland
+    )}
+
+    if (start == 1986){# Define the data
+     DFDE1986_2019 <- c(
+       0.311712469,  # Spain
+       15.92983022,  # France
+       8.624930994,  # Belgium
       1.83575288,   # Netherlands
-      18.95101885,  # Switzerland
-      5.811679096,  # Sweden
-      38.41414753,  # Czech Republic
-      17.37980347,  # Germany
-      6.684530283,  # Poland
-      1.54078413    # Finland
-    )
+       18.95101885,  # Switzerland
+       5.811679096,  # Sweden
+       38.41414753,  # Czech Republic
+       17.37980347,  # Germany
+       6.684530283,  # Poland
+       1.54078413    # Finland
+     )}
     
     DFDE2020 <- c(
       0.0000, # Spain
@@ -178,13 +216,13 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
     
     # Common range for x and y axes
     x_range <- range(country_table$Reported_Damage, na.rm = TRUE)
-    y_range <- range(country_table$Modelled_Damage_After_Calibration, na.rm = TRUE)
+    y_range <- range(country_table$Modelled_Damage_Before_Calibration, na.rm = TRUE)
     common_range <- c(min(c(x_range[1], y_range[1])), max(c(x_range[2], y_range[2])))
     
     # Define the plot
     storm_scatter <- ggplot(country_table,
                             aes(x = Reported_Damage,
-                                y = Modelled_Damage_After_Calibration)) +
+                                y = Modelled_Damage_Before_Calibration)) +
       geom_point(size = 3.5,
                  shape = 21,
                  fill = "#56B4E9",
@@ -202,8 +240,8 @@ plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots 
         linewidth = 1.2
       ) +  # Prominent regression line
       labs(
-        x = expression("Total Reported Damage (Milj m"^3*")"),
-        y = expression("Total Modelled Damage (Milj m"^3*")"),
+        x = expression("Total Reported Damage (M m"^3*")"),
+        y = expression("Total Modelled Damage (M m"^3*")"),
         title = paste("Reported vs Modelled Damage:", benchmark@first.year, "-", benchmark@last.year),
         subtitle = this_sim@source@id  
       ) +

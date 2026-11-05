@@ -11,7 +11,7 @@
 #'
 #' @examples
 #' @author Karl Piltz (karl.piltz@@nateko.lu.se), Fredrik Lagergren (fredrik.lagergren@@nateko.lu.se)
-plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots = do_plots, anno.hjust = 0, anno.vjust = 0, LC = NULL, WDPP = NULL, start = 1950){
+plotStormScatter <- function(benchmark = this_benchmark, all_sim_full, do_plots = do_plots, anno.hjust = 0, anno.vjust = 0, LC = NULL, WDPP = NULL, start = NULL){
   # Define paths
   areapath <- file.path(system.file("extdata", "Storm", "GridcellFractionsEMEP", package = "DGVMBenchmarks"))
   

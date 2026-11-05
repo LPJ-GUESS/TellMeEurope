@@ -354,7 +354,9 @@ field_lists <- DGVMBenchmarks::getAllFields(this_benchmark,all_simulation_Source
 all_sim_full <- field_lists[[1]]
 all_Fields_list <- field_lists[[2]]
 
-plotStormScatter(benchmark = this_benchmark,all_sim_full = all_sim_full,do_plots = do_plots, LC = LC)
+### Scatter includes data from either 1986-2020 or 2011-2020, use "start" to select interval 1986 or 2011.
+#### WDPP is wind disturbance potential set to 'Y'/'Yes' if applied. 
+plotStormScatter(benchmark = this_benchmark,all_sim_full = all_sim_full, do_plots = do_plots, LC = LC, start = 1986,WDPP = 'Y')
 }
 ```
 
